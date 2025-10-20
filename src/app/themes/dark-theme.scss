@@ -1,0 +1,17 @@
+$primary-color: #8B5CF6;
+$secondary-color: #4C1D95;
+$accent-color: #6366F1;
+$background-color: #0F172A;
+$card-background-color: #1A243B;
+$primary-font-color: #F8FAFC;
+$secondary-font-color: #EFEFEF;
+
+.dark-theme {
+  --primary-color: #{$primary-color};
+  --secondary-color: #{$secondary-color};
+  --accent-color: #{$accent-color};
+  --background-color: #{$background-color};
+  --card-background-color: #{$card-background-color};
+  --primary-font-color: #{$primary-font-color};
+  --secondary-font-color: #{$secondary-font-color};
+}

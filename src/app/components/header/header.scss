@@ -1,0 +1,22 @@
+@mixin align-container($justify, $align, $gap) {
+    display: inline-flex;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}
+
+header {
+    @include align-container(space-between, center, 0);
+    color: var(--accent-color);
+    width: 100%;
+    padding: 0 75px;
+
+    div {
+        @include align-container(center, center, 15px);
+    }
+
+    ul {
+        @include align-container(center, center, 10px);
+        list-style-type: none;
+    }
+}
