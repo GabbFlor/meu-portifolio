@@ -12,9 +12,13 @@
             <li>Habilidades</li>
             <li>Contato</li>
 
-            <i class="bi bi-brightness-high" (click)="changeColorTheme()"></i>
+            @if (actualTheme == "dark-theme") {
+                <i class="bi bi-brightness-high" (click)="changeColorTheme()"></i>
+            } @else {
+                <i class="bi bi-moon" (click)="changeColorTheme()"></i>
+            }
 
-            <button >Dropdown aqui</button>
+            <!-- <button >Dropdown aqui</button> -->
         </ul>
     </nav>
 </header>

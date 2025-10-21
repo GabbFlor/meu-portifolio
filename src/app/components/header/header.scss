@@ -1,4 +1,4 @@
-@import "bootstrap-icons/font/bootstrap-icons.scss";
+@use "bootstrap-icons/font/bootstrap-icons.scss";
 
 @mixin align-container($justify, $align, $gap) {
     display: inline-flex;
