@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class ThemeService {
-  private body = document.documentElement;
+  private body = document.body;
 
   // verifica o tema atual, se nao tiver nenhum, aplica o dark como padrao
   constructor () {
@@ -15,7 +15,7 @@ export class ThemeService {
   // aplica a classe do tema no html
   applyTheme(newTheme:string) {
     this.body.classList.remove("dark-theme", "light-theme");
-    this.body.classList.toggle(newTheme);
+    this.body.classList.add(newTheme);
   }
 
   // funcao publica para mudar o tema no cache e na classe html
@@ -25,6 +25,7 @@ export class ThemeService {
   }
 
   getActualTheme() {
-    return localStorage.getItem("theme");
+    // travando para retornar apenas valores permitindo
+    return (localStorage.getItem('theme') as 'dark-theme' | 'light-theme') || 'dark-theme';
   }
 }
