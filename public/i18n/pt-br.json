@@ -1,0 +1,15 @@
+{
+    "header": {
+        "nav": {
+            "ul": {
+                "li1": "Início",
+                "li2": "Sobre",
+                "li3": "Projetos",
+                "li4": "Habilidades",
+                "li5": "Contato",
+                "buttonTitle1": "Ativar tema claro",
+                "buttonTitle2": "Ativar tema escuro"
+            }
+        }
+    }
+}

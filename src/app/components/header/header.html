@@ -6,24 +6,26 @@
     
     <nav>
         <ul>
-            <li>Início</li>
-            <li>Sobre</li>
-            <li>Projetos</li>
-            <li>Habilidades</li>
-            <li>Contato</li>
+            <li>{{ 'header.nav.ul.li1' | translate }}</li>
+            <li>{{ 'header.nav.ul.li2' | translate }}</li>
+            <li>{{ 'header.nav.ul.li3' | translate }}</li>
+            <li>{{ 'header.nav.ul.li4' | translate }}</li>
+            <li>{{ 'header.nav.ul.li5' | translate }}</li>
+
+            <!-- 'header.nav.ul.buttonTitle1 -->
 
             <button (click)="changeColorTheme()">
                 @if (actualTheme == "dark-theme") {
-                    <i class="bi bi-brightness-high" title="Ativar tema claro"></i>
+                    <i class="bi bi-brightness-high" [attr.title]="'header.nav.ul.buttonTitle1' | translate"></i>
                 } @else {
-                    <i class="bi bi-moon" title="Ativar tema escuro"></i>
+                    <i class="bi bi-moon" [attr.title]="'header.nav.ul.buttonTitle2' | translate"></i>
                 }
             </button>
 
             <!-- <button >Dropdown aqui</button> -->
-            <select name="" id="" [(ngModel)]="idioma" (ngModelChange)="onChangeIdioma($event)">
+            <select [(ngModel)]="idioma" (ngModelChange)="onChangeIdioma($event)">
                 <option value="pt-br">🇧🇷 Português</option>
-                <option value="eng">🇺🇸 English</option>
+                <option value="en">🇺🇸 English</option>
             </select>
         </ul>
     </nav>

@@ -1,22 +1,33 @@
-import { Component, Inject, OnInit } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { ThemeService } from '../../services/theme-service';
 import { FormsModule } from '@angular/forms';
+import { TranslatePipe } from '@ngx-translate/core';
+import { LanguageService } from '../../services/language-service';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [FormsModule],
+  imports: [
+    FormsModule,
+    TranslatePipe
+  ],
   templateUrl: './header.html',
   styleUrl: './header.scss'
 })
 export class Header implements OnInit {
-  public actualTheme:string|null = "";
-  public idioma:string = "pt-br";
+  constructor () {}
 
-  constructor (private themeService: ThemeService) {}
+  public actualTheme:string|null = "";
+  public idioma:string = "";
+
+  private themeService = inject(ThemeService);
+  private languageService = inject(LanguageService);
 
   ngOnInit(): void {
     this.actualTheme = this.themeService.getActualTheme();
+    this.idioma = this.languageService.getLang();
+
+    console.warn(this.idioma);
   }
 
   changeColorTheme() {
@@ -38,7 +49,6 @@ export class Header implements OnInit {
   }
 
   onChangeIdioma(value:string) {
-    // ligacao com o service de idioma aqui
-    console.warn(`Seu idioma atual agora é: ${value}`);
+    this.languageService.setLang(value);
   }
 }

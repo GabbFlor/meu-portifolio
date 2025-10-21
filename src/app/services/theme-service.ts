@@ -13,18 +13,18 @@ export class ThemeService {
   }
 
   // aplica a classe do tema no html
-  applyTheme(newTheme:string) {
+  applyTheme(newTheme:string):void {
     this.body.classList.remove("dark-theme", "light-theme");
     this.body.classList.add(newTheme);
   }
 
   // funcao publica para mudar o tema no cache e na classe html
-  changeTheme(theme: 'dark-theme' | 'light-theme') {
+  changeTheme(theme: 'dark-theme' | 'light-theme'):void {
     localStorage.setItem("theme", theme);
     this.applyTheme(theme);
   }
 
-  getActualTheme() {
+  getActualTheme():string {
     // travando para retornar apenas valores permitindo
     return (localStorage.getItem('theme') as 'dark-theme' | 'light-theme') || 'dark-theme';
   }
