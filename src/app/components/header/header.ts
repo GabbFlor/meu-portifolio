@@ -1,14 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Inject, OnInit } from '@angular/core';
 import { ThemeService } from '../../services/theme-service';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-header',
-  imports: [],
+  standalone: true,
+  imports: [FormsModule],
   templateUrl: './header.html',
   styleUrl: './header.scss'
 })
 export class Header implements OnInit {
   public actualTheme:string|null = "";
+  public idioma:string = "pt-br";
 
   constructor (private themeService: ThemeService) {}
 
@@ -32,5 +35,10 @@ export class Header implements OnInit {
         console.error("Erro no tema.")
         break;
     }
+  }
+
+  onChangeIdioma(value:string) {
+    // ligacao com o service de idioma aqui
+    console.warn(`Seu idioma atual agora é: ${value}`);
   }
 }

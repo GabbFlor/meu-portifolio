@@ -12,13 +12,19 @@
             <li>Habilidades</li>
             <li>Contato</li>
 
-            @if (actualTheme == "dark-theme") {
-                <i class="bi bi-brightness-high" (click)="changeColorTheme()"></i>
-            } @else {
-                <i class="bi bi-moon" (click)="changeColorTheme()"></i>
-            }
+            <button (click)="changeColorTheme()">
+                @if (actualTheme == "dark-theme") {
+                    <i class="bi bi-brightness-high" title="Ativar tema claro"></i>
+                } @else {
+                    <i class="bi bi-moon" title="Ativar tema escuro"></i>
+                }
+            </button>
 
             <!-- <button >Dropdown aqui</button> -->
+            <select name="" id="" [(ngModel)]="idioma" (ngModelChange)="onChangeIdioma($event)">
+                <option value="pt-br">🇧🇷 Português</option>
+                <option value="eng">🇺🇸 English</option>
+            </select>
         </ul>
     </nav>
 </header>

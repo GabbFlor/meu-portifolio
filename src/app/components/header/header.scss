@@ -33,9 +33,33 @@ header {
             list-style-type: none;
             font-size: var(--font-size-p-header);
 
-            i {
-                font-size: var(--font-size-icon);
+            button {
+                padding: 0;
+                border: none;
+                outline: none;
+                background-color: transparent;
+
+                i {
+                    font-size: var(--font-size-icon);
+                    cursor: pointer;
+                    color: var(--primary-font-color);
+                }
+            }
+
+            select {
+                font-size: var(--font-size-p-header);
+                background-color: transparent;
+                color: var(--primary-font-color);
+                border: 1.5px solid var(--primary-font-color);
+                padding: 10px 5px 10px 5px;
+                border-radius: 5px;
+                outline: none;
                 cursor: pointer;
+
+                option {
+                    background-color: var(--background-color);
+                    border: 1.5px solid var(--primary-font-color);
+                }
             }
         }
     }
