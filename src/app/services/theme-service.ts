@@ -23,4 +23,8 @@ export class ThemeService {
     localStorage.setItem("theme", theme);
     this.applyTheme(theme);
   }
+
+  getActualTheme() {
+    return localStorage.getItem("theme");
+  }
 }

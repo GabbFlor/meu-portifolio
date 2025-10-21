@@ -2,6 +2,12 @@
 @use './app/themes/dark-theme.scss';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --font-size-h1-header: 1.25vw;
+    --font-size-p-header: 1.05vw;
+    --font-size-icon: 1.2vw;
+}
+
 * {
     padding: 0;
     margin: 0;

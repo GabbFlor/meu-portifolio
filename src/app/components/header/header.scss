@@ -1,3 +1,5 @@
+@import "bootstrap-icons/font/bootstrap-icons.scss";
+
 @mixin align-container($justify, $align, $gap) {
     display: inline-flex;
     justify-content: $justify;
@@ -7,16 +9,34 @@
 
 header {
     @include align-container(space-between, center, 0);
-    color: var(--accent-color);
+    background-color: var(--background-color);
+    color: var(--primary-font-color);
     width: 100%;
-    padding: 0 75px;
+    padding: 25px 75px;
 
     div {
         @include align-container(center, center, 15px);
+
+        h1 {
+            font-size: var(--font-size-h1-header);
+        }
+
+        i {
+            font-size: var(--font-size-h1-header);
+            cursor: pointer;
+        }
     }
 
-    ul {
-        @include align-container(center, center, 10px);
-        list-style-type: none;
+    nav {
+        ul {
+            @include align-container(center, center, 10px);
+            list-style-type: none;
+            font-size: var(--font-size-p-header);
+
+            i {
+                font-size: var(--font-size-icon);
+                cursor: pointer;
+            }
+        }
     }
 }
