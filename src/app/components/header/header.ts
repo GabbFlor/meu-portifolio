@@ -3,6 +3,7 @@ import { ThemeService } from '../../services/theme-service';
 import { FormsModule } from '@angular/forms';
 import { TranslatePipe } from '@ngx-translate/core';
 import { LanguageService } from '../../services/language-service';
+import { SupportedThemes } from '../../services/supported-themes';
 
 @Component({
   selector: 'app-header',
@@ -34,13 +35,13 @@ export class Header implements OnInit {
     const theme = this.actualTheme;
 
     switch(theme) {
-      case "dark-theme":
-        this.themeService.changeTheme("light-theme");
-        this.actualTheme ="light-theme";
+      case SupportedThemes.DARK:
+        this.themeService.changeTheme(SupportedThemes.LIGHT);
+        this.actualTheme = SupportedThemes.LIGHT;
         break;
-      case "light-theme":
-        this.themeService.changeTheme("dark-theme");
-        this.actualTheme = "dark-theme";
+      case SupportedThemes.LIGHT:
+        this.themeService.changeTheme(SupportedThemes.DARK);
+        this.actualTheme = SupportedThemes.DARK;
         break;
       default:
         console.error("Erro no tema.")
