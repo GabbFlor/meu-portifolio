@@ -12,7 +12,10 @@ header {
     background-color: var(--background-color);
     color: var(--primary-font-color);
     width: 100%;
+    height: var(--header-height);
     padding: 25px var(--default-width-padding);
+    position: fixed;
+    z-index: 10;
 
     div {
         @include align-container(center, center, 15px);
