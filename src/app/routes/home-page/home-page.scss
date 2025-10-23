@@ -6,17 +6,30 @@
     gap: $gap;
 }
 
+@mixin linha-superior-section($width) {
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: $width;
+        height: 3px;
+        background-color: var(--secondary-color);
+    }
+}
+
 main {
     @include align-container(column, center, center, 0px);
 
     background-color: var(--background-color);
 }
 
-.inicio {
+#inicio {
     @include align-container(row, center, center, 75px);
 
     width: 100%;
-    padding: 25px var(--default-width-padding);
+    padding: 100px var(--default-width-padding);
     box-shadow: 0 -5px 5px var(--primary-neon-color);
 
     img {
@@ -48,7 +61,7 @@ main {
                 color: var(--primary-font-color);
                 padding: 10px 0px;
                 font-size: var(--font-size-p);
-                width: 8.25vw;
+                width: var(--default-button-width);
                 text-align: center;
                 border-radius: 5px;
                 border: 2px solid var(--primary-color);
@@ -59,6 +72,93 @@ main {
                     cursor: pointer;
                     box-shadow: 0 0 7px 2px var(--accent-color);
                     transition: box-shadow 0.3s ease;
+                }
+            }
+        }
+    }
+}
+
+#sobre {
+    @include align-container(column, center, center, 20px);
+    @include linha-superior-section(95%);
+
+    position: relative;
+    padding: 50px;
+    width: 100%;
+    color: var(--primary-font-color);
+
+    h1 {
+        font-size: var(--font-size-h1);
+    }
+
+    p {
+        font-size: var(--font-size-p);
+        width: var(--sobre-p-width);
+        text-align: center;
+    }
+}
+
+#formacao {
+    @include align-container(column, center, center, 25px);
+    @include linha-superior-section(95%);
+
+    position: relative;
+    padding: 50px;
+    width: 100%;
+    color: var(--primary-font-color);
+
+    div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 50px;
+        grid-row-gap: 50px;
+
+
+        .card {
+            @include align-container(row, center, center, 20px);
+            border: 1.5px solid var(--primary-color);
+            border-radius: 5px;
+            width: var(--card-width);
+            padding: 25px 15px;
+
+            div {
+                @include align-container(column, flex-start, flex-start, 5px);
+                width: 100%;
+
+                h3 {
+                    font-size: var(--font-size-card-h3);
+                }
+                p {
+                    font-size: var(--font-size-card-p);
+                }
+
+                .barra_conclusao {
+                    margin-top: 10px;
+                    width: 100%;
+                    height: 5px;
+                    background-color: var(--accent-color);
+                    border-radius: 2px;
+                    cursor: pointer;
+                }
+
+                .perc_50 {
+                    width: 100%;
+                    position: relative;
+                    border-top-left-radius: 2px;
+                    border-bottom-left-radius: 2px;
+
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 50%;
+                        background-color: var(--primary-font-color);
+                        height: 5px;
+                        border-top-right-radius: 2px;
+                        border-bottom-right-radius: 2px;
+                    }
                 }
             }
         }

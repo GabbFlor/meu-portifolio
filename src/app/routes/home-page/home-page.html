@@ -1,5 +1,5 @@
 <main>
-    <section class="inicio">
+    <section id="inicio">
         <img src="assets/img_perfil.jpeg" alt="img_perfil">
 
         <div>
@@ -13,7 +13,96 @@
         </div>
     </section>
 
-    <section id="projetos">
-        teste
+    <section id="sobre">
+        <h1>{{ "main.sobre.h1" | translate }}</h1>
+
+        <p>
+            {{ "main.sobre.p1" | translate }}
+            <br><br>
+            {{ "main.sobre.p2" | translate }}
+            <br><br>
+            {{ "main.sobre.p3" | translate }}
+            <br><br>
+            {{ "main.sobre.p4" | translate }}
+        </p>
+    </section>
+
+    <section id="formacao">
+        <h1>Formação</h1>
+
+        <!-- grid -->
+        <div>
+            <div class="card">
+                <img src="assets/senai-logo.png" alt="logo_senai">
+
+                <div>
+                    <h3>{{ 'main.formacao.card1.h3' | translate}}</h3>
+
+                    <p>{{ 'main.formacao.card1.p' | translate}}</p>
+
+                    <div class="barra_conclusao" title="100%"></div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="assets/senai-logo.png" alt="logo_senai">
+
+                <div>
+                    <h3>{{ 'main.formacao.card2.h3' | translate}}</h3>
+
+                    <p>{{ 'main.formacao.card2.p' | translate}}</p>
+
+                    <div class="barra_conclusao perc_50" title="50%"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="assets/senai-logo.png" alt="logo_senai">
+
+                <div>
+                    <h3>{{ 'main.formacao.card3.h3' | translate}}</h3>
+
+                    <p>{{ 'main.formacao.card3.p' | translate}}</p>
+
+                    <div class="barra_conclusao" title="100%"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="assets/senai-logo.png" alt="logo_senai">
+
+                <div>
+                    <h3>{{ 'main.formacao.card4.h3' | translate}}</h3>
+
+                    <p>{{ 'main.formacao.card4.p' | translate}}</p>
+
+                    <div class="barra_conclusao" title="100%"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="assets/google-cloud-logo.png" alt="logo_google_cloud">
+
+                <div>
+                    <h3>{{ 'main.formacao.card5.h3' | translate}}</h3>
+
+                    <p>{{ 'main.formacao.card5.p' | translate}}</p>
+
+                    <div class="barra_conclusao" title="100%"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="assets/fund-bradesco-logo.png" alt="logo_fundacao_bradesco">
+
+                <div>
+                    <h3>{{ 'main.formacao.card6.h3' | translate}}</h3>
+
+                    <p>{{ 'main.formacao.card6.p' | translate}}</p>
+
+                    <div class="barra_conclusao" title="100%"></div>
+                </div>
+            </div>
+        </div>
     </section>
 </main>

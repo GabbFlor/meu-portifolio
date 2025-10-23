@@ -3,18 +3,30 @@
 @use './app/themes/light-theme.scss';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+// variaveis com os tamanhos para facilitar na responsividade
 :root {
+    // header
     --font-size-h1-header: 1.25vw;
     --font-size-p-header: 1.05vw;
     --font-size-icon: 1.2vw;
+    --font-size-icon: 1.2vw;
 
+    // pagina em geral
     --font-size-h1: 1.75vw;
     --font-size-p: 1.15vw;
+    --default-width-padding: 75px;
+    --default-button-width: 8.25vw;
 
+    // section inicio
     --profile-image-size: 20vw;
 
-    --font-size-icon: 1.2vw;
-    --default-width-padding: 75px;
+    // section sobre
+    --sobre-p-width: 65%;
+
+    // pagina formacao
+    --card-width: 22.5vw;
+    --font-size-card-h3: 1.05vw;
+    --font-size-card-p: 1vw;
 }
 
 * {

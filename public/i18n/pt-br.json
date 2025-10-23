@@ -19,6 +19,42 @@
             "p": "Sempre aprendendo, sempre evoluindo...",
             "btn1": "Ver projetos",
             "btn2": "Contato"
+        },
+
+        "sobre" : {
+            "h1": "Sobre mim",
+            "p1": "Opa, tudo bom? Me chamo Gabriel Florindo, sou um desenvolvedor Fullstack e estudante de Análise e Desenvolvimento de Sistemas (ADS).",
+            "p2": "Desde que começei a codar, descobri que o que mais me motiva é tranformar ideias em algo que realmente funcione, seja criando uma API em algum framework misterioso, ou dando a vida para criar uma interface usando alguma ferramenta do front-end.",
+            "p3": "Já participei de alguns projetos acadêmicos e pessoais que me ajudaram a aprimorar as minhas habilidades, seja no front-end, back-end, banco de dados, automação com Python ou até mesmo deploy CI/CD e servidores Linux.",
+            "p4": "Curto desafios, de entender como as coisas funcionam e de aprender novas formas de resolver problemas com a tecnologia :)"
+        },
+
+        "formacao": {
+            "h1": "Formação",
+            "card1": {
+                "h3": "Técnico em Análise e Desenvolvimento de Sistemas",
+                "p": "01/01/2023 - 01/12/2024"
+            },
+            "card2": {
+                "h3": "Tecnologo em Análise e Desenvolvimento de Sistemas",
+                "p": "01/01/2025 - 01/12/2026"
+            },
+            "card3": {
+                "h3": "FIC - Programação em Java",
+                "p": "04/05/2024 - 28/09/2024"
+            },
+            "card4": {
+                "h3": "FIC - Cibersegurança com Soluções em Fortinet",
+                "p": "05/10/2024 - 14/12/2024"
+            },
+            "card5": {
+                "h3": "FIC - Serviços em Nuvem - Google Cloud Foundations",
+                "p": "06/07/2023 - 20/07/2023"
+            },
+            "card6": {
+                "h3": "FIC - Microsoft Excel 2016 - Intermediário",
+                "p": "13/12/2023 - 21/12/2023"
+            }
         }
     }
 }

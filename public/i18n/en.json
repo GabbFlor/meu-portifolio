@@ -19,6 +19,42 @@
             "p": "Always learning, always improving..",
             "btn1": "View projects",
             "btn2": "Contact"
+        },
+
+        "sobre" : {
+            "h1": "About Me",
+            "p1": "Hey, always good? My name is Gabriel Florindo, I'm a Fullstack developer and Analysis and Development of Systems student (ADS)",
+            "p2": "Since I start coding, I discover what motivates-me is transform ideas in something are really work, it's create an API in some mysterious framework, or dedicate-me for create an interface using some tool of front-end.",
+            "p3": "Already participate of some academics and personal projects what help-me an aprimorate my habilities, it's in front-end, back-end, database, Python automation or even in CI/CD deploy and Linux servers.",
+            "p4": "I like challenges, of understand how things are working and learning new forms of solution problems with technology :)"
+        },
+
+        "formacao": {
+            "h1": "Education",
+            "card1": {
+                "h3": "Technican in Analysis and Development of Systems",
+                "p": "01/01/2023 - 12/01/2024"
+            },
+            "card2": {
+                "h3": "Technologist Degree in Systems Analysis and Development",
+                "p": "01/01/2025 - 12/01/2026"
+            },
+            "card3": {
+                "h3": "FIC - Java Programming",
+                "p": "05/04/2024 - 09/28/2024"
+            },
+            "card4": {
+                "h3": "FIC - Cybersecurity with solution in Fortinet",
+                "p": "10/05/2024 - 12/14/2024"
+            },
+            "card5": {
+                "h3": "FIC - Cloud Services - Google Cloud Foundations",
+                "p": "07/06/2023 - 07/20/2023"
+            },
+            "card6": {
+                "h3": "FIC - Microsoft Excel 2016 - Intermediary",
+                "p": "12/13/2023 - 12/21/2023"
+            }
         }
     }
 }
