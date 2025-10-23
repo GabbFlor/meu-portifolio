@@ -1,1 +1,19 @@
-<p>home-page works!</p>
+<main>
+    <section class="inicio">
+        <img src="assets/img_perfil.jpeg" alt="img_perfil">
+
+        <div>
+            <h1>{{ 'main.inicio.h1' | translate}}</h1>
+            <p>{{ 'main.inicio.p' | translate}}</p>
+
+            <div>
+                <a (click)="scrollTo('projetos')">{{ 'main.inicio.btn1' | translate}}</a>
+                <a (click)="scrollTo('contato')">{{ 'main.inicio.btn2' | translate}}</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos">
+        teste
+    </section>
+</main>

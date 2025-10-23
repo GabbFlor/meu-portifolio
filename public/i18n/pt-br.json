@@ -11,5 +11,14 @@
                 "buttonTitle2": "Ativar tema escuro"
             }
         }
+    },
+
+    "main": {
+        "inicio": {
+            "h1": "Desenvolvedor Fullstack",
+            "p": "Sempre aprendendo, sempre evoluindo...",
+            "btn1": "Ver projetos",
+            "btn2": "Contato"
+        }
     }
 }

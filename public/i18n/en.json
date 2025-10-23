@@ -11,5 +11,14 @@
                 "buttonTitle2": "Active dark theme"
             }
         }
+    },
+
+    "main": {
+        "inicio": {
+            "h1": "Fullstack developer",
+            "p": "Always learning, always improving..",
+            "btn1": "View projects",
+            "btn2": "Contact"
+        }
     }
 }

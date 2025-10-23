@@ -27,8 +27,6 @@ export class Header implements OnInit {
   ngOnInit(): void {
     this.actualTheme = this.themeService.getActualTheme();
     this.idioma = this.languageService.getLang();
-
-    console.warn(this.idioma);
   }
 
   changeColorTheme() {

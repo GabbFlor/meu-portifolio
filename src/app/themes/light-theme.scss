@@ -5,6 +5,7 @@ $background-color: #F8FAFC;
 $card-background-color: #E5E7EB;
 $primary-font-color: #1F2937;
 $secondary-font-color: #4B5563;
+$primary-neon-color: #8a5cf648;
 
 .light-theme {
   --primary-color: #{$primary-color};
@@ -14,4 +15,5 @@ $secondary-font-color: #4B5563;
   --card-background-color: #{$card-background-color};
   --primary-font-color: #{$primary-font-color};
   --secondary-font-color: #{$secondary-font-color};
+  --primary-neon-color: #{$primary-neon-color};
 }

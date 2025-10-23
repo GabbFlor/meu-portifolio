@@ -1,0 +1,66 @@
+@mixin align-container($direction, $justify, $align, $gap) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}
+
+main {
+    @include align-container(column, center, center, 0px);
+
+    background-color: var(--background-color);
+}
+
+.inicio {
+    @include align-container(row, center, center, 75px);
+
+    width: 100%;
+    padding: 25px var(--default-width-padding);
+    box-shadow: 0 -5px 5px var(--primary-neon-color);
+
+    img {
+        width: var(--profile-image-size);
+        border-radius: 100%;
+        border: 2px solid var(--primary-color);
+        box-shadow: 0 0 7px 5px var(--primary-neon-color);
+    }
+
+    div {
+        color: var(--primary-font-color);
+        @include align-container(column, center, center, 10px);
+
+        h1 {
+            font-size: var(--font-size-h1);
+        }
+
+        p {
+            font-size: var(--font-size-p);
+        }
+
+        div {
+            @include align-container(row, center, center, 15px);
+        
+            margin-top: 15px;
+
+            a {
+                background-color: var(--secondary-color);
+                color: var(--primary-font-color);
+                padding: 10px 0px;
+                font-size: var(--font-size-p);
+                width: 8.25vw;
+                text-align: center;
+                border-radius: 5px;
+                border: 2px solid var(--primary-color);
+                box-shadow: 0 0 7px 2px var(--primary-neon-color);
+                transition: box-shadow 0.3s ease;
+
+                &:hover {
+                    cursor: pointer;
+                    box-shadow: 0 0 7px 2px var(--accent-color);
+                    transition: box-shadow 0.3s ease;
+                }
+            }
+        }
+    }
+}

@@ -12,7 +12,7 @@ header {
     background-color: var(--background-color);
     color: var(--primary-font-color);
     width: 100%;
-    padding: 25px 75px;
+    padding: 25px var(--default-width-padding);
 
     div {
         @include align-container(center, center, 15px);
@@ -60,6 +60,11 @@ header {
                     background-color: var(--background-color);
                     border: 1.5px solid var(--primary-font-color);
                 }
+            }
+
+            li:hover {
+                cursor: pointer;
+                text-decoration: underline;
             }
         }
     }
