@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { TranslatePipe } from '@ngx-translate/core';
 import { LanguageService } from '../../services/language-service';
 import { SupportedThemes } from '../../services/supported-themes';
+import { ScrollService } from '../../services/scroll-service';
 
 @Component({
   selector: 'app-header',
@@ -16,20 +17,22 @@ import { SupportedThemes } from '../../services/supported-themes';
   styleUrl: './header.scss'
 })
 export class Header implements OnInit {
-  constructor () {}
+  constructor ( 
+    public scroll: ScrollService,
+    public language: LanguageService
+   ) {}
 
   public actualTheme:string|null = "";
   public idioma:string = "";
 
   private themeService = inject(ThemeService);
-  private languageService = inject(LanguageService);
 
   ngOnInit(): void {
     this.actualTheme = this.themeService.getActualTheme();
-    this.idioma = this.languageService.getLang();
+    this.idioma = this.language.getLang();
   }
 
-  changeColorTheme() {
+  changeColorTheme():void {
     const theme = this.actualTheme;
 
     switch(theme) {
@@ -45,9 +48,5 @@ export class Header implements OnInit {
         console.error("Erro no tema.")
         break;
     }
-  }
-
-  onChangeIdioma(value:string) {
-    this.languageService.setLang(value);
   }
 }

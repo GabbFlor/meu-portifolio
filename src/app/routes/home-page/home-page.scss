@@ -56,7 +56,7 @@ main {
         
             margin-top: 15px;
 
-            a {
+            button {
                 background-color: var(--secondary-color);
                 color: var(--primary-font-color);
                 padding: 10px 0px;
@@ -180,6 +180,81 @@ main {
             cursor: pointer;
             box-shadow: 0 0 7px 2px var(--accent-color);
             transition: box-shadow 0.3s ease;
+        }
+    }
+}
+
+#projetos {
+    @include align-container(column, center, center, 25px);
+    @include linha-superior-section(95%);
+
+    padding: 50px;
+    position: relative;
+    width: 100%;
+    color: var(--primary-font-color);
+
+    h1 {
+        font-size: var(--font-size-h1);
+    }
+
+    div {
+        // comando para grid aqui
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(1, 1fr);
+            grid-column-gap: 50px;
+            grid-row-gap: 50px;
+
+        .card {
+        @include align-container(column, center, center, 20px);
+            border: 1.5px solid var(--primary-color);
+            border-radius: 5px;
+            width: var(--card-width);
+            padding: 15px;
+
+            img {
+                width: var(--img-card-width);
+            }
+            
+            div {
+                @include align-container(column, center, flex-start, 5px);
+                width: 100%;
+
+                h3 {
+                    font-size: var(--font-size-card-h3);
+                    text-align: center;
+                    width: 100%;
+                }
+
+                p {
+                    font-size: var(--font-size-card-p);
+                    width: 100%;
+                    text-align: left;
+                }
+
+                .sublinha {
+                    text-decoration: underline;
+                }
+            }
+
+            button {
+                background-color: var(--secondary-color);
+                color: var(--primary-font-color);
+                padding: 10px 0px;
+                font-size: var(--font-size-p);
+                width: var(--default-button-width);
+                text-align: center;
+                border-radius: 5px;
+                border: 2px solid var(--primary-color);
+                box-shadow: 0 0 7px 2px var(--primary-neon-color);
+                transition: box-shadow 0.3s ease;
+
+                &:hover {
+                    cursor: pointer;
+                    box-shadow: 0 0 7px 2px var(--accent-color);
+                    transition: box-shadow 0.3s ease;
+                }
+            }
         }
     }
 }

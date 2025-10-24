@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
+import { ScrollService } from '../../services/scroll-service';
 
 @Component({
   selector: 'app-home-page',
@@ -10,15 +11,7 @@ import { TranslatePipe } from '@ngx-translate/core';
   styleUrl: './home-page.scss'
 })
 export class HomePage {
-
-  
-  scrollTo(section:string) {
-    const element = document.getElementById(section);
-
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    } else {
-      console.error(`Erro, elemento "${element}" não foi encontrado.`)
-    }
-  }
+  constructor(
+    public scroll: ScrollService
+  ) {}
 }

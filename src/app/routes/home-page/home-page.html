@@ -7,8 +7,8 @@
             <p>{{ 'main.inicio.p' | translate}}</p>
 
             <div>
-                <a (click)="scrollTo('projetos')">{{ 'main.inicio.btn1' | translate}}</a>
-                <a (click)="scrollTo('contato')">{{ 'main.inicio.btn2' | translate}}</a>
+                <button (click)="scroll.scrollTo('projetos')">{{ 'main.inicio.btn1' | translate}}</button>
+                <button (click)="scroll.scrollTo('contato')">{{ 'main.inicio.btn2' | translate}}</button>
             </div>
         </div>
     </section>
@@ -106,5 +106,36 @@
         </div>
 
         <button type="button">Ver todos</button>
+    </section>
+
+    <section id="projetos">
+        <h1>Projetos profissionais</h1>
+
+        <!-- grid -->
+        <div>
+            <div class="card">
+                <img src="assets/img-spin-vault.png" alt="imagem_projeto">
+            
+                <div>
+                    <h3>SaaS - SpinVault</h3>
+                    <p class="sublinha">01/01/2025 - 01/08/2025</p>
+                    <p>Serviço online de armazenamento de coleções de discos de vinis, focado para colecionadores.</p>
+                </div>
+
+                <button>Ver detalhes</button>
+            </div>
+
+            <div class="card">
+                <img src="assets/img-instalar.png" alt="imagem_projeto">
+            
+                <div>
+                    <h3>Instalar - Soluções em obras</h3>
+                    <p class="sublinha">01/07/2025 - 01/08/2025</p>
+                    <p>Web site construído com o objetivo de divulgar os serviços de uma empresa de montagem e instalação elétrica industrial.</p>
+                </div>
+
+                <button>Ver detalhes</button>
+            </div>
+        </div>
     </section>
 </main>
