@@ -16,4 +16,9 @@ $primary-neon-color: #8a5cf64b;
   --primary-font-color: #{$primary-font-color};
   --secondary-font-color: #{$secondary-font-color};
   --primary-neon-color: #{$primary-neon-color};
+
+  // icon do card-habilities é uma imagem, ent precisa dessa gambiarra para mudar com o tema
+  #icon-card-habilities {
+    filter: invert(56%) sepia(68%) saturate(6938%) hue-rotate(240deg) brightness(102%) contrast(93%);
+  }
 }

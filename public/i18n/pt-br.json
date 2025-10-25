@@ -72,8 +72,6 @@
                 "p1": "01/07/2025 - 01/08/2025",
                 "p2": "Web site construído com o objetivo de divulgar os serviços de uma empresa de montagem e instalação elétrica industrial."
             },
-
-            
             "card3": {
                 "h3": "Students Cool",
                 "p1": "01/07/2024 - 01/12/2024",
@@ -96,6 +94,10 @@
             },
 
             "button": "Ver detalhes"
+        },
+
+        "habilidades": {
+            "h1": "Habilidades"
         }
     }
 }

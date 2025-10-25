@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="75"
+   height="75"
+   viewBox="0 0 75 75"
+   fill="none"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="Java-icon.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="10.853333"
+     inkscape:cx="37.453931"
+     inkscape:cy="37.5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1026"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <rect
+     width="75"
+     height="75"
+     fill="url(#pattern0_32_74)"
+     id="rect1"
+     style="filter:url(#filter9)" />
+  <defs
+     id="defs1">
+    <pattern
+       id="pattern0_32_74"
+       patternContentUnits="objectBoundingBox"
+       width="1"
+       height="1">
+      <use
+         xlink:href="#image0_32_74"
+         transform="scale(0.01)"
+         id="use1" />
+    </pattern>
+    <image
+       id="image0_32_74"
+       width="100"
+       height="100"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,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" />
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Lightness-Contrast"
+       id="filter9"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         values="0 0 0 -0.5 0.5 0 0 0 -0.5 0.5 0 0 0 -0.5 0.5 0 0 0 1 0"
+         id="feColorMatrix9"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix10" />
+      <feColorMatrix
+         id="feColorMatrix11"
+         values="0 0 0 -0.5 0.5 0 0 0 -0.5 0.5 0 0 0 -0.5 0.5 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix12" />
+      <feColorMatrix
+         id="feColorMatrix13"
+         values="0 0 0 -0.5 0.5 0 0 0 -0.5 0.5 0 0 0 -0.5 0.5 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix14" />
+      <feColorMatrix
+         id="feColorMatrix15"
+         values="0 0 0 -0.5 0.5 0 0 0 -0.5 0.5 0 0 0 -0.5 0.5 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix16" />
+      <feColorMatrix
+         id="feColorMatrix17"
+         values="0 0 0 -0.5 0.5 0 0 0 -0.5 0.5 0 0 0 -0.5 0.5 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix18" />
+      <feColorMatrix
+         id="feColorMatrix19"
+         values="0 0 0 -0.5 0.5 0 0 0 -0.5 0.5 0 0 0 -0.5 0.5 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix20" />
+      <feColorMatrix
+         id="feColorMatrix21"
+         values="0 0 0 -0.5 0.5 0 0 0 -0.5 0.5 0 0 0 -0.5 0.5 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix22" />
+      <feColorMatrix
+         id="feColorMatrix23"
+         values="0 0 0 -0.5 0.5 0 0 0 -0.5 0.5 0 0 0 -0.5 0.5 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix24" />
+      <feColorMatrix
+         id="feColorMatrix25"
+         values="0 0 0 -0.5 0.5 0 0 0 -0.5 0.5 0 0 0 -0.5 0.5 0 0 0 1 0"
+         in="fbSourceGraphic" />
+    </filter>
+  </defs>
+</svg>

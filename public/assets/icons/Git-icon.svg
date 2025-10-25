@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="75"
+   height="74"
+   viewBox="0 0 75 74"
+   fill="none"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="Git-icon.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="11"
+     inkscape:cx="37.5"
+     inkscape:cy="37"
+     inkscape:window-width="1920"
+     inkscape:window-height="1026"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <rect
+     width="75"
+     height="74"
+     fill="url(#pattern0_33_11)"
+     id="rect1"
+     style="filter:url(#filter1)" />
+  <defs
+     id="defs1">
+    <pattern
+       id="pattern0_33_11"
+       patternContentUnits="objectBoundingBox"
+       width="1"
+       height="1">
+      <use
+         xlink:href="#image0_33_11"
+         transform="matrix(0.00986667 0 0 0.01 0.00666667 0)"
+         id="use1" />
+    </pattern>
+    <image
+       id="image0_33_11"
+       width="100"
+       height="100"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFDklEQVR4nO3dzW4cRRAA4IFwIYn4kyLxCiQGEl4AYRBvsJetdqJccogXQgBxQtqThdPtVeTEd/4uVngWc0gcExASbwBRdqt3fUgG1ayjWM56PT/d2zXdVVJLsVfWlOfLzPR0dbezTEJCQkJCIrHYWBldMmC3DOCeBhxRm/7b3qXPQueXTBiVn9GAv2iFz4yy+axWfAb4c/9afjp0vlHH2tUn54yyO8dBzGg79DOh844y1q4+OaeVvV8B4/nV8oe+Mno3dP5RxVpNDEFhiGEEhR+GERR+GEZQ+GEYQakeg87jd3xivECx96VLXCLudfJTRuGvvkHkSqkQ9wQlbPzQffx2/+P8tcPfo6+Nwu3FoMjt66UHuFb2t6MocqUE7k1pQeHXtdWCwu89QwsKv5c+LSgc38Bx+/jeFz7SgF/py8MPBp389fXOv28aNVwyCnuuXiyj7n3VHw7BmSj9fv7qcceizwzgdQ04ERQvY1P4EkqZMGq8LCjeBgpxm54hVY9PV4rcvryM2uJfdUDo9qXBPkgexfkQetd+UzcXo/BLV3m0EsVHPUN3Rxfr5kM9Mae5tAnFV3FpE/I36uY07RK7zacVKD4rfZsNQG5f+e8tHzmxRvFddh10h+/Xze0WjD7ylRdLFN8Yhn5xwC/q5qeV/c5rbpxQFoFhDn7peW/nx0Ux/gX49yLyC46yKAzzvAFer5rjwYBk/JXHhWOo4rY1udUdf1I11+jLwSEwzCEUrXB13u2LropkavQhMczhBviPUfb7o/lpZb/VgH/OH7qPBIUNhnrRjuaYTJGLI4Y5ASRaFK4YpgRIdCicMUxJkGhQuGOYCiCtr9G3AcNUBmlpjX669Nj+HvpkGy8gs1HKnZfxslG47yDvHTrHpQ9M68BDn2jjFaRBjV5hz0XeWuFPpYeq5y3KjwjkUR2Q6WCl3XUA8qzUjhPFdhUMTrTxDEIP8KxmbADecJT/nRMPRt2zFEAGDQpe65eHF5zkD7hXBmSYAshWJz9bF4R+1kXudK4FRLUPJIlbllHDpdC3LK3w4ckgYO+mAYK90A91DXbz5IOtjC6l0O3VDWr09D+7ce6ATwdq9GGpg9LmX7GDmJo1epr94iR3wB9LH5R2Yqu4UVgrQXQxNjVeLnteNmD8qauhk8q73cU7uGiPNDrB2Jv31l7cpoorozlG9CO+WWOQgwZ2lx7W0x5Ufmbahkv0PSfPDFd1du4omSsQ3412TE2hapi1AcQlBneUjDuIDwzOKBlnEJ8Y7FAA92YtcysmyjEY/klo9iLuU89nXjeVyrNU73D0zsAbIySKpnm9K+PPyuaoYfy5i4kJ7DHCoWAv2FAHd4wQC3byLH+l1jp1Ry927DEWuqRN4Wrd/HxfJawwFoWyvjJ5r25uBibnk8JYBEq/wd8CmY5LtfQ9gyvKVoMaOK1xTxLDKwpMztfNZzppOpHb1KJQNgBv1M1Fg/06ySvDJ4oG+yDk1M/WXhlerxQIVwOPAsPDrnL7IWrgUWH4QNEKV1tRA0/r9mV3jcKb1IOiLvF0emexBO2mPDPaWE9REfemokOBhDDYo0CCGGxRIGEMdiggGHxQQDD4oIBgcNoycE8wuKCAYPBBAcHggwKCwQcFBIMPCggGHxQQDD4oIBheUUy11cE70dczQkf/Wn6aNv+au7kB4FNaB95kcp1ExdDd0UXab4omUmvAEbWDSuGdJn8eSUJCQkJCImtp/A8EO2MxHJmjKwAAAABJRU5ErkJggg==" />
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Lightness-Contrast"
+       id="filter1"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         values="0 0 0 -0.5 0.5 0 0 0 -0.5 0.5 0 0 0 -0.5 0.5 0 0 0 1 0"
+         id="feColorMatrix1" />
+    </filter>
+  </defs>
+</svg>

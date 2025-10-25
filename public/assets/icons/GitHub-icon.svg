@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="75"
+   height="76"
+   viewBox="0 0 75 76"
+   fill="none"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="GitHub-icon.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="10.710526"
+     inkscape:cx="37.486486"
+     inkscape:cy="38"
+     inkscape:window-width="1920"
+     inkscape:window-height="1026"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <rect
+     width="75"
+     height="76"
+     fill="url(#pattern0_33_12)"
+     id="rect1"
+     style="filter:url(#filter1)" />
+  <defs
+     id="defs1">
+    <pattern
+       id="pattern0_33_12"
+       patternContentUnits="objectBoundingBox"
+       width="1"
+       height="1">
+      <use
+         xlink:href="#image0_33_12"
+         transform="matrix(0.01 0 0 0.00986842 0 0.00657895)"
+         id="use1" />
+    </pattern>
+    <image
+       id="image0_33_12"
+       width="100"
+       height="100"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,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" />
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Lightness-Contrast"
+       id="filter1"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         values="0 0 0 -0.5 0.5 0 0 0 -0.5 0.5 0 0 0 -0.5 0.5 0 0 0 1 0"
+         id="feColorMatrix1" />
+    </filter>
+  </defs>
+</svg>

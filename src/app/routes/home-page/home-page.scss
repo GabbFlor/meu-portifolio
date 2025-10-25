@@ -266,3 +266,42 @@ main {
         }
     }
 }
+
+#habilidades {
+    @include align-container(column, center, center, 25px);
+    @include linha-superior-section(95%);
+    position: relative;
+    padding: 50px;
+    width: 100%;
+    color: var(--primary-font-color);
+
+    h1 {
+        font-size: var(--font-size-h1);
+    }
+
+    div {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 50px;
+        grid-row-gap: 50px;
+
+        .card-habilities {
+            @include align-container(column, center, center, 10px);
+            color: var(--primary-color);
+            background-color: var(--card-background-color);
+            padding: 15px;
+            width: var(--card-habilities-width-height);
+            height: var(--card-habilities-width-height);
+            border-radius: 7.5px;
+            font-size: var(--font-size-card-habilities);
+            cursor: pointer;
+            transition: box-shadow 0.3s ease;
+
+            &:hover {
+                box-shadow: 0 0 7px 2px var(--accent-color);
+                transition: box-shadow 0.3s ease;
+            }
+        }
+    }
+}
