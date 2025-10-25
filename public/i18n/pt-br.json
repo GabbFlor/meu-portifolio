@@ -60,6 +60,7 @@
 
         "projetos-profissionais": {
             "h1": "Projetos profissionais",
+            "h1-2": "Projetos acadêmicos",
 
             "card1": {
                 "h3": "SaaS - SpinVault",
@@ -70,6 +71,28 @@
                 "h3": "Instalar - Soluções em obras",
                 "p1": "01/07/2025 - 01/08/2025",
                 "p2": "Web site construído com o objetivo de divulgar os serviços de uma empresa de montagem e instalação elétrica industrial."
+            },
+
+            
+            "card3": {
+                "h3": "Students Cool",
+                "p1": "01/07/2024 - 01/12/2024",
+                "p2": "Cardápio online interativo para instituições de ensino, com o objetivo de reduzir o desperdício de alimentos."
+            },
+            "card4": {
+                "h3": "Life Link",
+                "p1": "01/02/2024 - 01/06/2024",
+                "p2": "Rede social interna com foco na comunicação entre os estudantes, inspirado pelo Twitter (X)."
+            },
+            "card5": {
+                "h3": "Flora Task",
+                "p1": "01/09/2024 - 01/10/2024",
+                "p2": "Lista To-Do online pensado para ajudar na organização de tarefas usando tags de anotação."
+            },
+            "card6": {
+                "h3": "API - Biblioteca",
+                "p1": "01/05/2024 - 01/08/2024",
+                "p2": "API para uma biblioteca fictícia feita utilizando Java com Spring Boot, focando principalmente no desenvolvimento usando Clean Architecture."
             },
 
             "button": "Ver detalhes"

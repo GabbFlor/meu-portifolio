@@ -197,16 +197,24 @@ main {
         font-size: var(--font-size-h1);
     }
 
+    .grid-academicos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 50px;
+        grid-row-gap: 50px;
+    }
+
     div {
         // comando para grid aqui
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(1, 1fr);
-            grid-column-gap: 50px;
-            grid-row-gap: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-column-gap: 50px;
+        grid-row-gap: 50px;
 
         .card {
-        @include align-container(column, center, center, 20px);
+            @include align-container(column, space-between, center, 20px);
             border: 1.5px solid var(--primary-color);
             border-radius: 5px;
             width: var(--card-width);

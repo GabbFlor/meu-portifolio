@@ -60,6 +60,7 @@
 
         "projetos-profissionais": {
             "h1": "Professionals projects",
+            "h1-2": "Academics projects",
 
             "card1": {
                 "h3": "SaaS - SpinVault",
@@ -69,7 +70,28 @@
             "card2": {
                 "h3": "Instalar - Construction solutions",
                 "p1": "07/01/2025 - 08/01/2025",
-                "p2": "Website construction with the aim of promoting the services of an electrical installation and assembly company."
+                "p2": "Website construction aimed of promoting the services of an electrical installation and assembly company."
+            },
+
+            "card3": {
+                "h3": "Students Cool",
+                "p1": "07/01/2024 - 12/01/2024",
+                "p2": "Online interactive menu for schools, aimed of reduce food waste."
+            },
+            "card4": {
+                "h3": "Life Link",
+                "p1": "02/01/2024 - 06/01/2024",
+                "p2": "Internal social networks aimed in communication between students, inspired by Twitter (X)."
+            },
+            "card5": {
+                "h3": "Flora Task",
+                "p1": "09/01/2024 - 10/01/2024",
+                "p2": "Online to-do list thinked for help with tasks organization using anotation tags."
+            },
+            "card6": {
+                "h3": "API - Library",
+                "p1": "05/01/2024 - 08/01/2024",
+                "p2": "An API for a fictional library feat using Java with Spring Boot, main focus with development using Clean Architecture."
             },
 
             "button": "View details"
