@@ -54,7 +54,25 @@
             "card6": {
                 "h3": "FIC - Microsoft Excel 2016 - Intermediary",
                 "p": "12/13/2023 - 12/21/2023"
-            }
+            },
+            "button": "View all"
+        },
+
+        "projetos-profissionais": {
+            "h1": "Professionals projects",
+
+            "card1": {
+                "h3": "SaaS - SpinVault",
+                "p1": "01/01/2025 - 08/01/2025",
+                "p2": "Online storage service from vinyl discs collections, focus on colectioners"
+            },
+            "card2": {
+                "h3": "Instalar - Construction solutions",
+                "p1": "07/01/2025 - 08/01/2025",
+                "p2": "Website construction with the aim of promoting the services of an electrical installation and assembly company."
+            },
+
+            "button": "View details"
         }
     }
 }

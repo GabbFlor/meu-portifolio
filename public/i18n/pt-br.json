@@ -54,7 +54,25 @@
             "card6": {
                 "h3": "FIC - Microsoft Excel 2016 - Intermediário",
                 "p": "13/12/2023 - 21/12/2023"
-            }
+            },
+            "button": "Ver todos"
+        },
+
+        "projetos-profissionais": {
+            "h1": "Projetos profissionais",
+
+            "card1": {
+                "h3": "SaaS - SpinVault",
+                "p1": "01/01/2025 - 01/08/2025",
+                "p2": "Serviço online de armazenamento de coleções de discos de vinis, focado para colecionadores."
+            },
+            "card2": {
+                "h3": "Instalar - Soluções em obras",
+                "p1": "01/07/2025 - 01/08/2025",
+                "p2": "Web site construído com o objetivo de divulgar os serviços de uma empresa de montagem e instalação elétrica industrial."
+            },
+
+            "button": "Ver detalhes"
         }
     }
 }
