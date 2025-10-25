@@ -4,9 +4,10 @@
             "ul": {
                 "li1": "Home",
                 "li2": "About",
-                "li3": "Projects",
-                "li4": "Skills",
-                "li5": "Contact",
+                "li3": "Education",
+                "li4": "Projects",
+                "li5": "Skills",
+                "li6": "Contact",
                 "buttonTitle1": "Active light theme",
                 "buttonTitle2": "Active dark theme"
             }
