@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="100"
+   height="100"
+   viewBox="0 0 100 100"
+   fill="none"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="Email-icon.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="8.14"
+     inkscape:cx="49.938575"
+     inkscape:cy="50"
+     inkscape:window-width="1920"
+     inkscape:window-height="1026"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <rect
+     width="100"
+     height="100"
+     fill="url(#pattern0_35_21)"
+     id="rect1"
+     style="filter:url(#filter1)" />
+  <defs
+     id="defs1">
+    <pattern
+       id="pattern0_35_21"
+       patternContentUnits="objectBoundingBox"
+       width="1"
+       height="1">
+      <use
+         xlink:href="#image0_35_21"
+         transform="scale(0.01)"
+         id="use1" />
+    </pattern>
+    <image
+       id="image0_35_21"
+       width="100"
+       height="100"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEJElEQVR4nO2dPYgdVRTHrx+F34WFooKdNorRFEpAjDZqoVHRB8k7Z1awSGtpITrRaufceYsBG8EPsFxEC2u7FIqFpUETkYBYKER5c+4uxjhyY14So+S9efNx78z8f3Cqhb1zzm9n/u8td2aMAQAAAAAAAAAAAAAAAAAAAP/Lu5PyJkncPpnqc5K4CcpNzs9in+Xyxs5E5EnxkJD7zJLuWHYlyv23/pnNpzMu9rQmojTlVZb0iCU9G7xh7kmRnhVyb/jZNS5EyG0Fb5D7WcKaNyuD9cXQTdmeV876fCMy0v3ltUL6feiGbO9Lv9uelNfUFpJNd54I34wbRk3dY7WFWNa3gzfCwyhhfau+ENKPQjdiB1P6QQNC3PYVFyG3XXuRgWC7mBWErA6ERAaEREYsQn7OSQ+YkZOTHvCzCC/kYn2+mbi7zcjYouIOIf14pRl1LKQU0sKye62Rb6SRk6bl1TnrYWH9feWPvV0LuaS+2TykD5uBMuNij5D7svJcAgpZ/Ov5veyV8mYzENLD5Q1CumlZz6w3k5BCLtZPlvQl03OyafGMsP5YaxaRCOl16G9VCe2eCfGXMe1L6KfrhHYMQoT0ByF3uuKBfZ1RsddESkbFXn+MVXryM/CzCC7E//ydg/PbK5/WEYZ+ej60hfXPqpfj2YbeFcs39QuLWNp53LIe72PoZ2uEtrCeFC6eXvyO6IR4ZpPyer87RUh3+xD6W2uFtp4Rckf93rQ6s1qLdRfJk917hfSLWEM/XTu09Zjl+f1NzqoSdRbx+5GE3YYl92tM3/RlWjxo2X1V6fJE7nRO+qoX2casVqaJRWIJ/bRmaHcxK9PlIuuGviRuUrsP1mfrhvbghIQI/eyg3ln17BTSP3xoV9003UshXYV+2kJoh5pVZ4ssQl/Y/dJk6EtLoR1yVp0usgh9Yf2raugfpfKWrkJ7dJschHaetKQnKv1ls546d6OML9ZTFS+BJ/yaTR3/4ITUDP3WQ3uUQhZkh3bvqRz6K5Ue29yY32daYNBCaoZ+K6Ftxi5kwWzy260+wCuF/mXH6D84mJYZjZAFWeL2C+u3K58VrCfzpHjKdMTohHjSl8vrloV+W6G9jFEKWR767YX2MkYt5PLQ7yK0lzF6IQssz2/zZQIDIZEBIZEBIZEBIZEBIZEBIZEBIZEBIZEBIZEBIZEBIZEBIZEBIZEBIZEBIZEBIZHRyayE9MMrLoIqVy0hfb++dTwEs2ysSI80svUmeCM8jMoT92htIf5eDP8Q4NDN2N6XHm/sZlYhfSF8Q67X1fhT9/wD5UM3ZXtawiqmnddVuDfxugpXVryp6PVWXldx6dPU/MtKhNUFb5jjrHOzIfeJbMwfMF3h981a1kfwyiP3r1ce+Zn4W+s6EwEAAAAAAAAAAAAAAAAAAGD6xd+mo3KD9pftHAAAAABJRU5ErkJggg==" />
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Lightness-Contrast"
+       id="filter1"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         values="0 0 0 -0.5 0.5 0 0 0 -0.5 0.5 0 0 0 -0.5 0.5 0 0 0 1 0"
+         id="feColorMatrix1" />
+    </filter>
+  </defs>
+</svg>

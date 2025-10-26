@@ -298,6 +298,50 @@ main {
             cursor: pointer;
             transition: box-shadow 0.3s ease;
 
+            img {
+                width: var(--card-habilities-img-size);
+            }
+
+            &:hover {
+                box-shadow: 0 0 7px 2px var(--accent-color);
+                transition: box-shadow 0.3s ease;
+            }
+        }
+    }
+}
+
+#contato {
+    @include align-container(column, center, center, 25px);
+    @include linha-superior-section(95%);
+    position: relative;
+    padding: 50px;
+    width: 100%;
+    color: var(--primary-font-color);
+
+    h1 {
+        font-size: var(--font-size-h1);
+    }
+
+    div {
+        @include align-container(row, space-around, center, var(--flex-contact-gap));
+
+        .card-contact {
+            @include align-container(column, center, center, 10px);
+            color: var(--primary-color);
+            background-color: var(--card-background-color);
+            padding: 15px;
+            width: var(--card-contact-width-height);
+            height: var(--card-contact-width-height);
+            font-size: var(--font-size-card-contact);
+            border-radius: 7.5px;
+            cursor: pointer;
+            transition: box-shadow 0.3s ease;
+            text-decoration: none;
+
+            img {
+                width: var(--card-contact-img-size);
+            }
+
             &:hover {
                 box-shadow: 0 0 7px 2px var(--accent-color);
                 transition: box-shadow 0.3s ease;

@@ -99,6 +99,14 @@
 
         "habilidades": {
             "h1": "Habilidades"
+        },
+
+        "contato": {
+            "h1": "Contato"
         }
+    },
+
+    "footer": {
+        "p": "Copyright 2025 - Gabriel Florindo - Todos os direitos reservados."
     }
 }
