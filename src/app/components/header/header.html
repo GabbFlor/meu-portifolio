@@ -5,7 +5,7 @@
     </div>
     
     <nav>
-        <ul>
+        <ul [ngClass]="{ 'responsive-active': menuResponsiveActive}">
             <li (click)="scroll.scrollTo('inicio')">{{ 'header.nav.ul.li1' | translate }}</li>
             <li (click)="scroll.scrollTo('sobre')">{{ 'header.nav.ul.li2' | translate }}</li>
             <li (click)="scroll.scrollTo('formacao')">{{ 'header.nav.ul.li3' | translate }}</li>
@@ -13,21 +13,23 @@
             <li (click)="scroll.scrollTo('habilidades')">{{ 'header.nav.ul.li5' | translate }}</li>
             <li (click)="scroll.scrollTo('contato')">{{ 'header.nav.ul.li6' | translate }}</li>
 
-            <!-- 'header.nav.ul.buttonTitle1 -->
-
-            <button (click)="changeColorTheme()">
-                @if (actualTheme == "dark-theme") {
-                    <i class="bi bi-brightness-high" [attr.title]="'header.nav.ul.buttonTitle1' | translate"></i>
-                } @else {
-                    <i class="bi bi-moon" [attr.title]="'header.nav.ul.buttonTitle2' | translate"></i>
-                }
-            </button>
-
-            <!-- <button >Dropdown aqui</button> -->
-            <select [(ngModel)]="idioma" (ngModelChange)="language.setLang($event)">
-                <option value="pt-br">🇧🇷 Português</option>
-                <option value="en">🇺🇸 English</option>
-            </select>
+            <i class="bi bi-x-lg btn-close-responsive" (click)="changeResponsiveMenu()"></i>
         </ul>
+
+        <i class="bi bi-list icon-responsividade" (click)="changeResponsiveMenu()"></i>
+
+        <button (click)="changeColorTheme()">
+            @if (actualTheme == "dark-theme") {
+                <i class="bi bi-brightness-high" [attr.title]="'header.nav.ul.buttonTitle1' | translate"></i>
+            } @else {
+                <i class="bi bi-moon" [attr.title]="'header.nav.ul.buttonTitle2' | translate"></i>
+            }
+        </button>
+
+        <!-- <button >Dropdown aqui</button> -->
+        <select [(ngModel)]="idioma" (ngModelChange)="language.setLang($event)">
+            <option value="pt-br">🇧🇷 Português</option>
+            <option value="en">🇺🇸 English</option>
+        </select>
     </nav>
 </header>

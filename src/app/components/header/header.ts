@@ -5,14 +5,16 @@ import { TranslatePipe } from '@ngx-translate/core';
 import { LanguageService } from '../../services/language-service';
 import { SupportedThemes } from '../../services/supported-themes';
 import { ScrollService } from '../../services/scroll-service';
+import { NgClass } from '@angular/common';
 
 @Component({
   selector: 'app-header',
   standalone: true,
   imports: [
     FormsModule,
-    TranslatePipe
-  ],
+    TranslatePipe,
+    NgClass
+],
   templateUrl: './header.html',
   styleUrl: './header.scss'
 })
@@ -24,6 +26,8 @@ export class Header implements OnInit {
 
   public actualTheme:string|null = "";
   public idioma:string = "";
+  public menuResponsiveActive = false;
+  public classMenu = "teste"
 
   private themeService = inject(ThemeService);
 
@@ -48,5 +52,10 @@ export class Header implements OnInit {
         console.error("Erro no tema.")
         break;
     }
+  }
+
+  changeResponsiveMenu() {
+    // alterna entre true e false
+    this.menuResponsiveActive = !this.menuResponsiveActive;
   }
 }
