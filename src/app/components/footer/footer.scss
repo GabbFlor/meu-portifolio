@@ -22,3 +22,9 @@ footer {
     padding: 15px;
     font-size: var(--font-size-footer);
 }
+
+@media(max-width: 500px) {
+    footer {
+        padding: 10px;
+    }
+}

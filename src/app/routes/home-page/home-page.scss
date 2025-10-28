@@ -26,7 +26,7 @@ main {
 }
 
 #inicio {
-    @include align-container(row, center, center, 75px);
+    @include align-container(row, center, center, var(--padding-home-section));
 
     width: 100%;
     padding: 100px var(--default-width-padding);
@@ -107,6 +107,10 @@ main {
     width: 100%;
     color: var(--primary-font-color);
 
+    h1 {
+        font-size: var(--font-size-h1);
+    }
+
     div {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -121,6 +125,10 @@ main {
             border-radius: 5px;
             width: var(--card-width);
             padding: 25px 15px;
+
+            img {
+                width: var(--img-card-formacao-width);
+            }
 
             div {
                 @include align-container(column, flex-start, flex-start, 5px);
@@ -206,7 +214,6 @@ main {
     }
 
     div {
-        // comando para grid aqui
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(1, 1fr);
@@ -297,6 +304,7 @@ main {
             font-size: var(--font-size-card-habilities);
             cursor: pointer;
             transition: box-shadow 0.3s ease;
+            text-align: center;
 
             img {
                 width: var(--card-habilities-img-size);
@@ -345,6 +353,84 @@ main {
             &:hover {
                 box-shadow: 0 0 7px 2px var(--accent-color);
                 transition: box-shadow 0.3s ease;
+            }
+        }
+    }
+}
+
+// responsividade para celular
+@media(max-width: 500px) {
+    #inicio {
+        @include align-container(column, center, center, var(--padding-home-section));
+        padding: 50px var(--default-width-padding);
+    }
+
+    #sobre {
+        @include linha-superior-section(90%);
+    }
+
+    #formacao {
+        @include linha-superior-section(90%);
+
+        div {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-column-gap: 15px;
+            grid-row-gap: 15px;
+
+            .card {
+                @include align-container(row, center, center, 10px);
+                padding: 15px 15px;
+
+                div {
+                    @include align-container(column, flex-start, flex-start, 2.5px);
+                }
+            }
+        }
+    }
+
+    #projetos {
+        @include linha-superior-section(90%);
+
+        div {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(1, 1fr);
+            grid-column-gap: 15px;
+            grid-row-gap: 15px;
+        }
+
+        .grid-academicos {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 15px;
+            grid-row-gap: 15px;
+        }
+    }
+
+    #habilidades {
+        @include linha-superior-section(90%);
+        padding: 40px;
+
+        div {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 10px;
+            grid-row-gap: 10px;
+
+            .card-habilities {
+                @include align-container(column, center, center, 2px);
+            }
+        }
+    }
+
+    #contato {
+        div {
+            .card-contact {
+                @include align-container(column, center, center, 3px);
             }
         }
     }
