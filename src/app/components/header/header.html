@@ -5,7 +5,11 @@
     </div>
     
     <nav>
-        <ul [ngClass]="{ 'responsive-active': menuResponsiveActive}">
+        <!-- se a variavel no angular for true aplica a classe -->
+        <ul [ngClass]="{
+            'responsive-active': menuResponsiveActive && !menuIsClosing,
+            'menuIsClosing': menuIsClosing
+            }">
             <li (click)="scroll.scrollTo('inicio')">{{ 'header.nav.ul.li1' | translate }}</li>
             <li (click)="scroll.scrollTo('sobre')">{{ 'header.nav.ul.li2' | translate }}</li>
             <li (click)="scroll.scrollTo('formacao')">{{ 'header.nav.ul.li3' | translate }}</li>

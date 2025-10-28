@@ -27,7 +27,7 @@ export class Header implements OnInit {
   public actualTheme:string|null = "";
   public idioma:string = "";
   public menuResponsiveActive = false;
-  public classMenu = "teste"
+  public menuIsClosing = false;
 
   private themeService = inject(ThemeService);
 
@@ -55,7 +55,17 @@ export class Header implements OnInit {
   }
 
   changeResponsiveMenu() {
-    // alterna entre true e false
-    this.menuResponsiveActive = !this.menuResponsiveActive;
+    // esse if serve para aplicar a animação de quando o menu fecha
+
+    if (this.menuResponsiveActive) {
+      this.menuIsClosing = true;
+
+      setTimeout(() => {
+        this.menuIsClosing = false;
+        this.menuResponsiveActive = false;
+      }, 400);
+    } else {
+      this.menuResponsiveActive = true;
+    }
   }
 }
