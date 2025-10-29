@@ -54,7 +54,7 @@ export class Header implements OnInit {
     }
   }
 
-  changeResponsiveMenu() {
+  changeResponsiveMenu():void {
     // esse if serve para aplicar a animação de quando o menu fecha
 
     if (this.menuResponsiveActive) {
