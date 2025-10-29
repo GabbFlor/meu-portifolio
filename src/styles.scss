@@ -18,6 +18,7 @@
     --font-size-p: 1.15vw;
     --default-width-padding: 75px;
     --default-button-width: 8.25vw;
+    --img-card-formacao-width: 5vw;
 
     // section inicio
     --profile-image-size: 20vw;
@@ -45,6 +46,53 @@
 
     // footer
     --font-size-footer: 0.85vw;
+}
+
+//responsividade para tablet
+@media(min-width: 500px) and (max-width: 800px) {
+    :root {
+        // header
+        --header-height: 75px;
+        --font-size-h1-header: 1.85vw;
+        --font-size-p-header: 1.75vw;
+        --font-size-icon: 1.85vw;
+        --header-padding-h1-icon: 5px;
+        --header-padding-ul: 5.5px;
+
+        // pagina em geral
+        --font-size-h1: 3vw;
+        --font-size-p: 2vw;
+        --default-width-padding: 50px;
+        --default-button-width: 13.5vw;
+
+        // section inicio
+        --profile-image-size: 25vw;
+        --padding-home-section: 50px;
+
+        // section sobre
+        --sobre-p-width: 75%;
+
+        // section formacao e parte da projetos
+        --card-width: 34.5vw;
+        --font-size-card-h3: 1.8vw;
+        --font-size-card-p: 1.65vw;
+        --img-card-width: 32vw;
+        --img-card-formacao-width: 7.75vw;
+
+        // section habilidades
+        --font-size-card-habilities: 1.5vw;
+        --card-habilities-width-height: 10.5vw;
+        --card-habilities-img-size: 5vw;
+
+        // section contato
+        --font-size-card-contact: 1.75vw;
+        --card-contact-width-height: 12.5vw;
+        --card-contact-img-size: 6vw;
+        --flex-contact-gap: 4.5vw;
+
+        // footer
+        --font-size-footer: 1.5vw;
+    }
 }
 
 // responsividade para celular 

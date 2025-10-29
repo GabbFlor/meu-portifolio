@@ -23,6 +23,12 @@ footer {
     font-size: var(--font-size-footer);
 }
 
+@media(min-width: 500px) and (max-width: 800px) {
+    footer {
+        padding: 12.5px;
+    }
+}
+
 @media(max-width: 500px) {
     footer {
         padding: 10px;

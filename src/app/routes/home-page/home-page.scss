@@ -358,6 +358,84 @@ main {
     }
 }
 
+// responsividade para tablet
+@media (min-width: 500px) and (max-width: 800px) {
+    #inicio {
+        // @include align-container(column, center, center, var(--padding-home-section));
+        padding: 75px var(--default-width-padding);
+    }
+
+    #sobre {
+        @include linha-superior-section(90%);
+    }
+
+    #formacao {
+        @include linha-superior-section(90%);
+
+        div {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-column-gap: 25px;
+            grid-row-gap: 25px;
+
+            .card {
+                @include align-container(row, center, center, 10px);
+                padding: 15px 15px;
+
+                div {
+                    @include align-container(column, flex-start, flex-start, 2.5px);
+                }
+            }
+        }
+    }
+
+    #projetos {
+        @include linha-superior-section(90%);
+
+        div {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(1, 1fr);
+            grid-column-gap: 25px;
+            grid-row-gap: 25px;
+        }
+
+        .grid-academicos {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 25px;
+            grid-row-gap: 25px;
+        }
+    }
+
+    #habilidades {
+        @include linha-superior-section(90%);
+        padding: 40px;
+
+        div {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 15px;
+            grid-row-gap: 15px;
+
+            .card-habilities {
+                @include align-container(column, center, center, 2px);
+            }
+        }
+    }
+
+    #contato {
+        div {
+            .card-contact {
+                @include align-container(column, center, center, 5px);
+            }
+        }
+    }
+}
+
 // responsividade para celular
 @media(max-width: 500px) {
     #inicio {
