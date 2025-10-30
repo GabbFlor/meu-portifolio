@@ -1,16 +1,10 @@
-<!-- <section (click)="teste('clicou no OVERLAY')">
-    <div (click)="teste('clicou no modal')">
-        TESTE
-    </div>
-</section> -->
-
-
 <section>
     <div class="overlay" (click)="closeModal()"></div>
 
     <div class="modal">
+        <img [src]="modalContent.img" alt="">
+
         <h1>Titulo: {{ modalContent ? (modalContent.title | translate) : "Carregando..." }}</h1><br>
         <p>Conteudo: {{ modalContent ? (modalContent.text | translate) : "Carregando..." }}</p><br>
-        <p>Img path: {{ modalContent ? modalContent.img : "Carregando..." }}</p>
     </div>
 </section>
