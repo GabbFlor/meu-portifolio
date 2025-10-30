@@ -24,7 +24,5 @@ export class HomePage {
   showModal(id:number):void {
     this.modalId = id;
     this.modalIsActive = true;
-
-    console.warn(`Modal ativando: ${this.modalIsActive}, id = ${this.modalId}`);
   }
 }

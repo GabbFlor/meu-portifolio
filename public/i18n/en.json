@@ -108,5 +108,16 @@
 
     "footer": {
         "p": "Copyright 2025 - Gabriel Florindo - All rights reserved."
+    },
+
+    "projects": {
+        "1": {
+            "title": "SpinVault",
+            "text": "Vinyl Disks Systems"
+        },
+        "2": {
+            "title": "Instalar - Construct solutions",
+            "text": "promotional website for company of electric pikas."
+        }
     }
 }

@@ -108,5 +108,16 @@
 
     "footer": {
         "p": "Copyright 2025 - Gabriel Florindo - Todos os direitos reservados."
+    },
+    
+    "projects": {
+        "1": {
+            "title": "SpinVault",
+            "text": "Sistema de discos de vinis"
+        },
+        "2": {
+            "title": "Instalar - Soluções em obras",
+            "text": "Site de divulgação para empresa de pikas eletricas"
+        }
     }
 }

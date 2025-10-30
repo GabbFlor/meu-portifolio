@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "title": "SpinVault",
-    "text": "Sistema de disco de vinis.",
+    "title": "projects.1.title",
+    "text": "projects.1.text",
     "img": "assets/img-instalar.png"
   },
   {
     "id": 2,
-    "title": "Instalar",
-    "text": "Site de divulgação para empresa de pikas eletricas.",
+    "title": "projects.2.title",
+    "text": "projects.2.text",
     "img": "assets/img-spinvault.png"
   }
 ]

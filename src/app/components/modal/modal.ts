@@ -1,9 +1,10 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-modal',
-  imports: [],
+  imports: [TranslatePipe],
   templateUrl: './modal.html',
   styleUrl: './modal.scss'
 })
