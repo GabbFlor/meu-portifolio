@@ -1,4 +1,11 @@
 <main>
+    @if (modalIsActive) {
+        <app-modal 
+            [id]="modalId"
+            (close)="modalIsActive = false" 
+        />
+    }
+
     <section id="inicio">
         <img src="assets/img_perfil.jpeg" alt="img_perfil">
 
@@ -134,7 +141,9 @@
                     <p>{{ "main.projetos-profissionais.card2.p2" | translate}}</p>
                 </div>
 
-                <button>{{ "main.projetos-profissionais.button" | translate}}</button>
+                <button (click)="showModal(2)">
+                    {{ "main.projetos-profissionais.button" | translate}}
+                </button>
             </div>
         </div>
     </section>
