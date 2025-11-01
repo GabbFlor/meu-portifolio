@@ -1,12 +1,14 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Component, CUSTOM_ELEMENTS_SCHEMA, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-modal',
+  standalone: true,
   imports: [TranslatePipe],
   templateUrl: './modal.html',
-  styleUrl: './modal.scss'
+  styleUrl: './modal.scss',
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class Modal implements OnInit {
 
