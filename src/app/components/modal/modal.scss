@@ -24,31 +24,101 @@ section {
     }
 
     .modal {
-        @include align-container(column, center, center, 5px);
-
+        @include align-container(column, flex-start, center, 20px);
         background-color: var(--card-background-color);
         color: var(--primary-font-color);
         border: 2px solid var(--primary-color);
         border-radius: 7.5px;
         height: 90%;
-        width: 90%;
+        width: 75%;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 15;
-        padding: 25px;
+        padding: 25px 50px;
+
+        .btn-fechar {
+            position: absolute;
+            right: 2%;
+            font-size: var(--font-size-icon);
+            cursor: pointer;
+        }
+
+        .escrita {
+            @include align-container(column, flex-start, center, 5px);
+            position: relative;
+            max-height: max-content;
+            overflow-y: auto;
+
+            div {
+                h1 {
+                    font-size: var(--font-size-h1);
+                }
+
+                p {
+                    font-size: var(--font-size-p);
+                    margin-bottom: 25px;
+                }
+
+                ul {
+                    margin-left: 50px;
+                    margin-bottom: 25px;
+
+                    li {
+                        font-size: var(--font-size-p);
+                    }
+                }
+
+                h3 {
+                    font-size: var(--font-size-h3);
+                }
+            }
+
+            &::-webkit-scrollbar {
+                width: 8px; /* largura da barra vertical */
+                height: 8px; /* altura da barra horizontal */
+            }
+
+            &::-webkit-scrollbar-track {
+                background: transparent; /* fundo transparente */
+            }
+
+            &::-webkit-scrollbar-thumb {
+                background-color: var(--primary-color); /* cor da barra */
+                border-radius: 10px; /* bordas arredondadas */
+            }
+
+            &::-webkit-scrollbar-thumb:hover {
+                background-color: var(--accent-color); /* cor um pouco mais clara ao passar o mouse */
+            }
+        }
 
         .carousel {
             z-index: 16 !important;
             position: relative !important;
-            width: 57.5vw;
+            width: 42.5vw;
+            height: 25vw;
+            margin-top: 25px;
 
             .slide {
                 @include align-container(column, center, center, 0);
 
+                .img-carregando {
+                    @include align-container(column, center, center, 0);
+                    font-size: var(--font-size-h1);
+                    color: var(--primary-font-color);
+                    height: 100%;
+                    width: 35vw;
+                    height: 20.5vw;
+                    border: 2px solid var(--primary-color);
+                    border-radius: 5px;
+                }
+
                 img {
-                    width: 50vw;
+                    width: 35vw;
+                    border-radius: 5px;
+                    border: 2px solid var(--primary-color);
                 }
             }
         }

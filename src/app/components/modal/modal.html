@@ -2,21 +2,63 @@
     <div class="overlay" (click)="closeModal()"></div>
 
     <div class="modal">
+        <i class="bi bi-x-lg btn-fechar" (click)="closeModal()"></i>
+
         <swiper-container loop="true" navigation="true" class="carousel" speed="300">
-            <swiper-slide class="slide">
-                <img src="assets/imgs-projetos/instalar/home-1.png" alt="">
-            </swiper-slide>
-
-            <swiper-slide class="slide">
-                <img src="assets/imgs-projetos/instalar/home-2.png" alt="">
-            </swiper-slide>
-
-            <swiper-slide class="slide">
-                <img src="assets/imgs-projetos/instalar/home-3.png" alt="">
-            </swiper-slide>
+            @if (modalContent) {
+                @for (img of modalContent.img; track $index) {
+                    <swiper-slide class="slide">
+                        <img [src]="img" alt="img-projeto">
+                    </swiper-slide>
+                }
+            } @else {
+                <swiper-slide class="slide">
+                    <h1 class="img-carregando">Carregando imagens...</h1>
+                </swiper-slide>
+            }
         </swiper-container>
 
-        <h1>Titulo: {{ modalContent ? (modalContent.title | translate) : "Carregando..." }}</h1><br>
-        <p>Conteudo: {{ modalContent ? (modalContent.text | translate) : "Carregando..." }}</p><br>
+        <section class="escrita">
+            <h1>{{ `projects.${id}.title.h1` | translate }}</h1>
+
+            <div>
+                <h3>{{ `projects.${id}.title.introducao` | translate }}</h3>
+                <p>{{ `projects.${id}.text.introducao` | translate }}</p>
+
+                <h3>{{ `projects.${id}.title.objetivo` | translate }}</h3>
+                <p>{{ `projects.${id}.text.objetivo` | translate }}</p>
+
+                <h3>{{ `projects.${id}.title.tecnologias` | translate }}</h3>
+                <ul>
+                    @if ((`projects.${id}.text.tecnologias.front-end` | translate).length != 0) {
+                        <li>
+                            {{ `projects.${id}.title.front` | translate }}:
+                            {{ `projects.${id}.text.tecnologias.front-end` | translate }};
+                        </li>
+                    }
+                    @if ((`projects.${id}.text.tecnologias.back-end` | translate).length != 0) {
+                        <li>
+                            {{ `projects.${id}.title.back` | translate }}:
+                            {{ `projects.${id}.text.tecnologias.back-end` | translate }};
+                        </li>
+                    }
+                    @if((`projects.${id}.text.tecnologias.banco-de-dados` | translate).length != 0) {
+                        <li>
+                            {{ `projects.${id}.title.banco` | translate }}:
+                            {{ `projects.${id}.text.tecnologias.banco-de-dados` | translate }};
+                        </li>
+                    }
+                    @if((`projects.${id}.text.tecnologias.servidor` | translate).length != 0) {
+                        <li>
+                            {{ `projects.${id}.title.server` | translate }}:
+                            {{ `projects.${id}.text.tecnologias.servidor` | translate }};
+                        </li>
+                    }
+                </ul>
+
+                <h3>{{ `projects.${id}.title.comentario` | translate }}</h3>
+                <p>{{ `projects.${id}.text.comentario-extra` | translate }}</p>
+            </div>
+        </section>
     </div>
 </section>

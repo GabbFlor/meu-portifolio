@@ -22,6 +22,8 @@ export class Modal implements OnInit {
   ngOnInit(): void {
     this.http.get<any[]>('data/projects.json').subscribe(response => {
       this.modalContent = response.find(item => item.id === this.id);
+
+      console.log(this.modalContent.img);
     })
   }
 

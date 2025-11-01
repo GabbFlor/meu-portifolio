@@ -1,14 +1,23 @@
 [
   {
     "id": 1,
-    "title": "projects.1.title",
-    "text": "projects.1.text",
     "img": "assets/img-instalar.png"
   },
   {
     "id": 2,
-    "title": "projects.2.title",
-    "text": "projects.2.text",
-    "img": "assets/imgs-projetos/instalar/home-1.png"
+    "img": [
+      "assets/imgs-projetos/instalar/home-1.png",
+      "assets/imgs-projetos/instalar/home-2.png",
+      "assets/imgs-projetos/instalar/home-3.png",
+      "assets/imgs-projetos/instalar/home-4.png",
+      "assets/imgs-projetos/instalar/sobrenos-1.png",
+      "assets/imgs-projetos/instalar/sobrenos-2.png",
+      "assets/imgs-projetos/instalar/sobrenos-3.png",
+      "assets/imgs-projetos/instalar/servicos-1.png",
+      "assets/imgs-projetos/instalar/servicos-2.png",
+      "assets/imgs-projetos/instalar/servicos-3.png",
+      "assets/imgs-projetos/instalar/contato-1.png",
+      "assets/imgs-projetos/instalar/contato-2.png"
+    ]
   }
 ]

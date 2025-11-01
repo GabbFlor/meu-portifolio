@@ -112,12 +112,53 @@
     
     "projects": {
         "1": {
-            "title": "SpinVault",
-            "text": "Sistema de discos de vinis"
+            "title": {
+                "h1": "Spinvault",
+                "introducao": "Introdução",
+                "objetivo": "Objetivo",
+                "tecnologias": "Tecnologias",
+                "front": "Front-end",
+                "back": "Back-end",
+                "banco": "Banco de dados",
+                "server": "Servidor",
+                "comentario": "Comentário extra"
+            },
+            "text": {
+                "introducao": "",
+                "objetivo": "",
+                "tecnologias": {
+                    "front-end": [],
+                    "back-end": [],
+                    "banco-de-dados": [],
+                    "servidor": []
+                },
+                "comentario-extra": ""
+            }
         },
+
         "2": {
-            "title": "Instalar - Soluções em obras",
-            "text": "Site de divulgação para empresa de pikas eletricas"
+            "title": {
+                "h1": "Instalar - Soluções em obras",
+                "introducao": "Introdução",
+                "objetivo": "Objetivo",
+                "tecnologias": "Tecnologias",
+                "front": "Front-end",
+                "back": "Back-end",
+                "banco": "Banco de dados",
+                "server": "Servidor",
+                "comentario": "Comentário extra"
+            },
+            "text": {
+                "introducao": "O projeto \"Instalar\" foi um freelance que fiz para uma empresa de instalação elétrica e industrial, você pode acessa-lo clicando AQUI.",
+                "objetivo": "O objetivo do mesmo foi de ajudar na divulgação da empresa, auxiliando e guiando possíveis novos clientes e ao mesmo tempo fornecendo uma visão geral do serviço que é oferecido.",
+                "tecnologias": {
+                    "front-end": ["HTML", "CSS", "JS", "ReactJS", "Figma"],
+                    "back-end": [],
+                    "banco-de-dados": [],
+                    "servidor": ["Vercel"]
+                },
+                "comentario-extra": "Esse foi um projeto relativamente simples em comparação com os outros que já fiz, porém ele serviu como uma experiência do mercado de trabalho, já que foi um dos primeiros freelances que fiz de fato."
+            }
         }
     }
 }
