@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, CUSTOM_ELEMENTS_SCHEMA, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Component, CUSTOM_ELEMENTS_SCHEMA, EventEmitter, Input, OnDestroy, OnInit, Output } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
@@ -10,7 +10,7 @@ import { TranslatePipe } from '@ngx-translate/core';
   styleUrl: './modal.scss',
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
-export class Modal implements OnInit {
+export class Modal implements OnInit, OnDestroy {
 
   constructor(private http: HttpClient) {}
 
@@ -20,11 +20,16 @@ export class Modal implements OnInit {
   public modalContent:any;
 
   ngOnInit(): void {
+    // aplica o estilo para esconder a barra de rolagem (n funciona no .scss)
+    document.body.style.overflow = "hidden";
+
     this.http.get<any[]>('data/projects.json').subscribe(response => {
       this.modalContent = response.find(item => item.id === this.id);
-
-      console.log(this.modalContent.img);
     })
+  }
+
+  ngOnDestroy(): void {
+    document.body.style.overflow = "auto";
   }
 
   // emite o evento "close" para a rota q ta usando componente

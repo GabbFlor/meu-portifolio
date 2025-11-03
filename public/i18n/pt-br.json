@@ -149,7 +149,7 @@
                 "comentario": "Comentário extra"
             },
             "text": {
-                "introducao": "O projeto \"Instalar\" foi um freelance que fiz para uma empresa de instalação elétrica e industrial, você pode acessa-lo clicando AQUI.",
+                "introducao": "O projeto \"Instalar\" foi um freelance que fiz para uma empresa de instalação elétrica e industrial.",
                 "objetivo": "O objetivo do mesmo foi de ajudar na divulgação da empresa, auxiliando e guiando possíveis novos clientes e ao mesmo tempo fornecendo uma visão geral do serviço que é oferecido.",
                 "tecnologias": {
                     "front-end": ["HTML", "CSS", "JS", "ReactJS", "Figma"],

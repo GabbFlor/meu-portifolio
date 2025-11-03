@@ -59,6 +59,10 @@
                 <h3>{{ `projects.${id}.title.comentario` | translate }}</h3>
                 <p>{{ `projects.${id}.text.comentario-extra` | translate }}</p>
             </div>
+
+            @if(modalContent && modalContent.link != "" && modalContent.link != null) {
+                <a [href]="modalContent.link" target="_blank" rel="noopener noreferrer">Abrir página</a>
+            }
         </section>
     </div>
 </section>
