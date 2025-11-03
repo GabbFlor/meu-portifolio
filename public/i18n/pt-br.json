@@ -158,7 +158,8 @@
                     "servidor": ["Vercel"]
                 },
                 "comentario-extra": "Esse foi um projeto relativamente simples em comparação com os outros que já fiz, porém ele serviu como uma experiência do mercado de trabalho, já que foi um dos primeiros freelances que fiz de fato."
-            }
+            },
+            "button": "Abrir página"
         }
     }
 }

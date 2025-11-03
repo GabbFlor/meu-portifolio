@@ -138,7 +138,7 @@
 
         "2": {
             "title": {
-                "h1": "TRADUZIR",
+                "h1": "Instalar - Construction solutions",
                 "introducao": "Introduction",
                 "objetivo": "Objective",
                 "tecnologias": "Technologies",
@@ -149,16 +149,17 @@
                 "comentario": "Extra comment"
             },
             "text": {
-                "introducao": "O projeto \"Instalar\" foi um freelance que fiz para uma empresa de instalação elétrica e industrial, você pode acessa-lo clicando AQUI.",
-                "objetivo": "O objetivo do mesmo foi de ajudar na divulgação da empresa, auxiliando e guiando possíveis novos clientes e ao mesmo tempo fornecendo uma visão geral do serviço que é oferecido.",
+                "introducao": "The project \"Instalar\" it was a freelance job I did for an electrical and industrial instalation company.",
+                "objetivo": "It's pourpose is to a help promote the company, guide and assist potential new clients, and at same time, provide an overview of the service are offered.",
                 "tecnologias": {
                     "front-end": ["HTML", "CSS", "JS", "ReactJS", "Figma"],
                     "back-end": [],
                     "banco-de-dados": [],
                     "servidor": ["Vercel"]
                 },
-                "comentario-extra": "Esse foi um projeto relativamente simples em comparação com os outros que já fiz, porém ele serviu como uma experiência do mercado de trabalho, já que foi um dos primeiros freelances que fiz de fato."
-            }
+                "comentario-extra": "This is a relative simple project in compared to others I maked, but it serves as work experience, because is one of firsts freelance jobs what I really work."
+            },
+            "button": "Go to page"
         }
     }
 }

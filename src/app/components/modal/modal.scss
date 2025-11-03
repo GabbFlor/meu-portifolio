@@ -51,11 +51,13 @@ section {
             max-height: max-content;
             overflow-y: auto;
 
-            div {
-                h1 {
-                    font-size: var(--font-size-h1);
-                }
+            h1 {
+                font-size: var(--font-size-h1);
+                margin-bottom: 10px;
+                margin-top: 10px;
+            }
 
+            div {
                 p {
                     font-size: var(--font-size-p);
                     margin-bottom: 25px;
@@ -118,12 +120,21 @@ section {
         .carousel {
             z-index: 16 !important;
             position: relative !important;
-            width: 42.5vw;
-            height: 25vw;
+            width: 42.5vw !important;
+            height: 25vw !important;
             margin-top: 25px;
 
+            .slide-button {
+                z-index: 20 !important;
+            }
+
             .slide {
-                @include align-container(column, center, center, 0);
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                width: 42.5vw !important;
+                height: 25vw !important;
+                // background-color: red;
 
                 .img-carregando {
                     @include align-container(column, center, center, 0);
@@ -137,9 +148,130 @@ section {
                 }
 
                 img {
-                    width: 35vw;
+                    width: 60%;
+                    height: auto;
+                    object-fit: cover;
                     border-radius: 5px;
                     border: 2px solid var(--primary-color);
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 500px) and (max-width: 800px) {
+    section {
+        .modal {
+            @include align-container(column, flex-start, center, 10px);
+            width: 80%;
+            position: absolute;
+            padding: 25px 50px;
+
+            .btn-fechar {
+                position: absolute;
+                right: 2%;
+                font-size: var(--font-size-h1);
+                cursor: pointer;
+            }
+
+            .escrita {
+                @include align-container(column, flex-start, center, 5px);
+                position: relative;
+                max-height: max-content;
+                overflow-y: auto;
+
+                h1 {
+                    font-size: var(--font-size-h1);
+                    padding-bottom: 10px;
+                }
+
+                div {
+                    p {
+                        font-size: var(--font-size-p);
+                        margin-bottom: 25px;
+                    }
+
+                    ul {
+                        margin-left: 40px;
+                    }
+                }
+            }
+
+            .carousel {
+            width: 70vw;
+            height: 35vw;
+            margin-top: 30px;
+
+            .slide {
+                .img-carregando {
+                    width: 55vw;
+                    height: 32vw;
+                }
+
+                img {
+                    width: 55vw;
+                }
+            }
+        }
+        }
+    }
+}
+
+@media(max-width: 500px) {
+    section {
+        .modal {
+            @include align-container(column, flex-start, center, 10px);
+            width: 90%;
+            position: absolute;
+            padding: 25px 25px;
+
+            .btn-fechar {
+                position: absolute;
+                right: 5%;
+                font-size: var(--font-size-h1);
+                cursor: pointer;
+            }
+
+            .escrita {
+                @include align-container(column, flex-start, center, 5px);
+
+                h1 {
+                    font-size: var(--font-size-h1);
+                    padding-bottom: 10px;
+                }
+
+                div {
+                    p {
+                        font-size: var(--font-size-p);
+                        margin-bottom: 25px;
+                    }
+
+                    ul {
+                        margin-left: 40px;
+                    }
+                }
+            }
+
+            .carousel {
+                width: 90vw;
+                height: 45vw;
+                margin-top: 30px;
+
+                .swipper {
+                    .swipper-button-prev, .swipper-button-prev {
+                        display: none !important;
+                    }
+                }
+
+                .slide {
+                    .img-carregando {
+                        width: 55vw;
+                        height: 32vw;
+                    }
+
+                    img {
+                        width: 70vw;
+                    }
                 }
             }
         }
