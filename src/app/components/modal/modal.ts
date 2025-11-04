@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { AfterViewInit, Component, CUSTOM_ELEMENTS_SCHEMA, EventEmitter, HostListener, Input, OnDestroy, OnInit, Output } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
+import { firstValueFrom } from 'rxjs';
 import Swiper from 'swiper';
 
 @Component({
@@ -10,16 +11,26 @@ import Swiper from 'swiper';
   templateUrl: './modal.html',
   styleUrl: './modal.scss'
 })
-export class Modal implements OnInit, OnDestroy, AfterViewInit {
-
+export class Modal implements OnDestroy, AfterViewInit {
   constructor(private http: HttpClient) {}
-
   @Input() id!:number;
   @Output() close = new EventEmitter<void>();
   public modalContent:any;
   swiper!: Swiper;
 
-  ngAfterViewInit(): void {
+  async ngAfterViewInit() {
+    document.body.style.overflow = "hidden";
+    await this.loadImages();
+    this.initSwiper();
+  }
+
+  async loadImages() {
+    // cria uma promisse depois de pegar o primeiro retorno da consulta
+    const response = await firstValueFrom(this.http.get<any[]>('data/projects.json'));
+    this.modalContent = response.find(item => item.id === this.id);
+  }
+
+  initSwiper():void {
     this.swiper = new Swiper('.carousel', {
       loop: true,
       speed: 300,
@@ -27,21 +38,6 @@ export class Modal implements OnInit, OnDestroy, AfterViewInit {
         enabled: true,
         addIcons: true,
       },
-      // breakpoints: {
-      //   0: {navigation: false},
-      //   501: {navigation: true},
-      // }
-    })
-
-    setTimeout(() => this.swiper.update(), 200);
-  }
-
-  ngOnInit(): void {
-    // aplica o estilo para esconder a barra de rolagem (n funciona no .scss)
-    document.body.style.overflow = "hidden";
-
-    this.http.get<any[]>('data/projects.json').subscribe(response => {
-      this.modalContent = response.find(item => item.id === this.id);
     })
   }
 
