@@ -34,6 +34,12 @@ export class Modal implements OnDestroy, AfterViewInit {
     this.swiper = new Swiper('.carousel', {
       loop: true,
       speed: 300,
+      pagination: {
+        enabled: true,
+        el: '.swiper-pagination',
+        dynamicBullets: true,
+        // dynamicMainBullets: 4
+      },
       navigation: {
         enabled: true,
         addIcons: true,
