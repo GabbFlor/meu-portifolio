@@ -24,8 +24,8 @@ export class Modal implements OnInit, OnDestroy, AfterViewInit {
       loop: true,
       speed: 300,
       navigation: {
-        nextEl: 'swiper-button-next',
-        prevEl: 'swiper-button-prev'
+        enabled: true,
+        addIcons: true,
       },
       // breakpoints: {
       //   0: {navigation: false},

@@ -1,10 +1,10 @@
-<section>
+<section class="section-geral">
     <div class="overlay" (click)="closeModal()"></div>
 
     <div class="modal">
         <i class="bi bi-x-lg btn-fechar" (click)="closeModal()"></i>
 
-        <div class="swiper carousel" >
+        <div class="swiper carousel">
             <div class="swiper-wrapper">
                 @if (modalContent) {
                     @for (img of modalContent.img; track $index) {
@@ -17,10 +17,9 @@
                         <h1 class="img-carregando">Carregando imagens...</h1>
                     </div>
                 }
-                <div class="swiper-button-next slide-button"></div>
-                <div class="swiper-button-prev slide-button"></div>
             </div>
-            
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </div>
 
         <!-- <div class="swiper carousel">
