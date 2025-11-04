@@ -5,7 +5,7 @@
         <i class="bi bi-x-lg btn-fechar" (click)="closeModal()"></i>
 
         <div class="swiper carousel">
-            <div class="swiper-wrapper">
+            <div class="wrapper swiper-wrapper">
                 @if (modalContent) {
                     @for (img of modalContent.img; track $index) {
                         <div class="slide swiper-slide">
