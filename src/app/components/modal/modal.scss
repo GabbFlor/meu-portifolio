@@ -134,9 +134,8 @@
                     @include align-container(column, center, center, 0);
                     font-size: var(--font-size-h1);
                     color: var(--primary-font-color);
-                    height: 100%;
-                    width: 35vw;
-                    height: 20.5vw;
+                    width: 33vw;
+                    height: 19.5vw;
                     border: 2px solid var(--primary-color);
                     border-radius: 5px;
                 }
@@ -264,8 +263,8 @@
 
                     .img-carregando {
                         @include align-container(column, center, center, 0);
-                        width: 33vw;
-                        height: 19.5vw;
+                        width: 100%;
+                        height: 45vw;
                     }
 
                     img {
