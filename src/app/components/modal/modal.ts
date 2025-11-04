@@ -37,7 +37,13 @@ export class Modal implements OnDestroy, AfterViewInit {
       navigation: {
         enabled: true,
         addIcons: true,
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
       },
+      breakpoints: {
+        0: {navigation: {enabled: false}},
+        501: {navigation: {enabled: true}},
+      }
     })
   }
 
