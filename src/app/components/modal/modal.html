@@ -8,7 +8,7 @@
             <div class="wrapper swiper-wrapper">
                 @if (modalContent) {
                     @for (img of modalContent.img; track $index) {
-                        <div class="slide swiper-slide">
+                        <div class="slide swiper-slide" data-swiper-autoplay="3000">
                             <img [src]="img" alt="img-projeto">
                         </div>
                     }
