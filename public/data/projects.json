@@ -1,7 +1,19 @@
 [
   {
     "id": 1,
-    "img": "assets/img-instalar.png"
+    "img": [
+      "assets/imgs-projetos/spin-vault/img-1.webp",
+      "assets/imgs-projetos/spin-vault/img-2.webp",
+      "assets/imgs-projetos/spin-vault/img-3.webp",
+      "assets/imgs-projetos/spin-vault/img-4.webp",
+      "assets/imgs-projetos/spin-vault/img-5.webp",
+      "assets/imgs-projetos/spin-vault/img-6.webp",
+      "assets/imgs-projetos/spin-vault/img-7.webp",
+      "assets/imgs-projetos/spin-vault/img-8.webp",
+      "assets/imgs-projetos/spin-vault/img-9.webp",
+      "assets/imgs-projetos/spin-vault/img-10.webp",
+      "assets/imgs-projetos/spin-vault/img-11.webp"
+    ]
   },
   {
     "id": 2,

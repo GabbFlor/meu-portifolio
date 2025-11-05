@@ -124,15 +124,15 @@
                 "comentario": "Comentário extra"
             },
             "text": {
-                "introducao": "",
-                "objetivo": "",
+                "introducao": "O \"Spin-Vault\" é o meu principal projeto pessoal, se trata de uma biblioteca de discos de vinis online, onde os usuários podem armazenar e organizar seus discos com facilidade.",
+                "objetivo": "Após uma pesquisa de mercado, foi observado que colecionadores possuem grandes dificuldades para organizar suas coleções a depender do tamanho delas, e o Spin-Vault foi criado para resolver esse problema, provendo espaço em nuvem e organização para as coleções.",
                 "tecnologias": {
-                    "front-end": [],
-                    "back-end": [],
-                    "banco-de-dados": [],
-                    "servidor": []
+                    "front-end": ["HTML", " CSS", " JS", " React"],
+                    "back-end": ["Java", " Spring Boot", " Python", " RabbitMQ"],
+                    "banco-de-dados": ["PostgreSQL"],
+                    "servidor": ["Vercel", " Hostinger"]
                 },
-                "comentario-extra": ""
+                "comentario-extra": "Trabalhei nesse projeto por cerca de 7 a 8 meses, sempre focando em desenvolver o código mantendo as boas práticas e uma arquitetura organizada, gostaria de dar o destaque ao back-end, que eu o desenvolvi inteiramente usando arquitetura limpa até na implementação do microserviço em python (Tratamento de dados). Foi um projeto muito interessante e que agregou muito para os meus conhecimentos como programador."
             }
         },
 
@@ -152,7 +152,7 @@
                 "introducao": "O projeto \"Instalar\" foi um freelance que fiz para uma empresa de instalação elétrica e industrial.",
                 "objetivo": "O objetivo do mesmo foi de ajudar na divulgação da empresa, auxiliando e guiando possíveis novos clientes e ao mesmo tempo fornecendo uma visão geral do serviço que é oferecido.",
                 "tecnologias": {
-                    "front-end": ["HTML", "CSS", "JS", "ReactJS", "Figma"],
+                    "front-end": ["HTML", " CSS", " JS", " ReactJS", " Figma"],
                     "back-end": [],
                     "banco-de-dados": [],
                     "servidor": ["Vercel"]

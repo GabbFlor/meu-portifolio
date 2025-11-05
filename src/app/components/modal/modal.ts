@@ -36,7 +36,6 @@ export class Modal implements OnDestroy, AfterViewInit {
       speed: 300,
       autoplay: {
         pauseOnMouseEnter: true,
-        
       },
       pagination: {
         enabled: true,

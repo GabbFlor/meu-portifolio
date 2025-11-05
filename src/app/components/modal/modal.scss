@@ -100,21 +100,21 @@
             }
 
             &::-webkit-scrollbar {
-                width: 8px; /* largura da barra vertical */
-                height: 8px; /* altura da barra horizontal */
+                width: 8px;
+                height: 8px;
             }
 
             &::-webkit-scrollbar-track {
-                background: transparent; /* fundo transparente */
+                background: transparent;
             }
 
             &::-webkit-scrollbar-thumb {
-                background-color: var(--primary-color); /* cor da barra */
-                border-radius: 10px; /* bordas arredondadas */
+                background-color: var(--primary-color);
+                border-radius: 10px;
             }
 
             &::-webkit-scrollbar-thumb:hover {
-                background-color: var(--accent-color); /* cor um pouco mais clara ao passar o mouse */
+                background-color: var(--accent-color);
             }
         }
 
@@ -190,6 +190,10 @@
                         margin-left: 40px;
                     }
                 }
+
+                &::-webkit-scrollbar {
+                    width: 7px !important;
+                }
             }
 
             .carousel {
@@ -252,6 +256,9 @@
                     ul {
                         margin-left: 40px;
                     }
+                }
+                &::-webkit-scrollbar {
+                    width: 5px !important;
                 }
             }
 
