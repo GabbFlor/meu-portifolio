@@ -133,7 +133,8 @@
                     "servidor": ["Vercel", " Hostinger"]
                 },
                 "comentario-extra": "Trabalhei nesse projeto por cerca de 7 a 8 meses, sempre focando em desenvolver o código mantendo as boas práticas e uma arquitetura organizada, gostaria de dar o destaque ao back-end, que eu o desenvolvi inteiramente usando arquitetura limpa até na implementação do microserviço em python (Tratamento de dados). Foi um projeto muito interessante e que agregou muito para os meus conhecimentos como programador."
-            }
+            },
+            "button": "Abrir página"
         },
 
         "2": {
