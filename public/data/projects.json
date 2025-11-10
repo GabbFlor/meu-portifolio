@@ -33,5 +33,26 @@
       "assets/imgs-projetos/instalar/contato-2.png"
     ],
     "link": "https://www.instalarsolucoesobras.com.br/"
+  },
+  {
+    "id": 3,
+    "img": [
+      "assets/imgs-projetos/students-cool/img-1.webp",
+      "assets/imgs-projetos/students-cool/img-2.webp",
+      "assets/imgs-projetos/students-cool/img-3.webp",
+      "assets/imgs-projetos/students-cool/img-4.webp",
+      "assets/imgs-projetos/students-cool/img-5.webp",
+      "assets/imgs-projetos/students-cool/img-6.webp",
+      "assets/imgs-projetos/students-cool/img-7.webp",
+      "assets/imgs-projetos/students-cool/img-8.webp",
+      "assets/imgs-projetos/students-cool/img-9.webp",
+      "assets/imgs-projetos/students-cool/img-10.webp",
+      "assets/imgs-projetos/students-cool/img-11.webp",
+      "assets/imgs-projetos/students-cool/img-12.webp",
+      "assets/imgs-projetos/students-cool/img-13.webp",
+      "assets/imgs-projetos/students-cool/img-14.webp",
+      "assets/imgs-projetos/students-cool/img-15.webp"
+    ],
+    "link": "https://github.com/matheus-bicarato/StudentsCool"
   }
 ]

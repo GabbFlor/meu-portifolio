@@ -161,6 +161,32 @@
                 "comentario-extra": "This is a relative simple project in compared to others I maked, but it serves as work experience, because is one of firsts freelance jobs what I really work."
             },
             "button": "Go to page"
+        },
+
+        "3": {
+            "title": {
+                "h1": "Students Cool",
+                "introducao": "Introduction",
+                "objetivo": "Objective",
+                "tecnologias": "Technologies",
+                "front": "Front-end",
+                "back": "Back-end",
+                "banco": "Database",
+                "server": "Server",
+                "comentario": "Extra comment"
+            },
+            "text": {
+                "introducao": "The \"Students-cool\" was my Final Project in the technical curse of Analysis and Development of Systems in Senai of Santo André.",
+                "objetivo": "This project was created with the aim of reducing food waste in Schools, we achieved this by developing an online interactive menu (for both PC and mobile), where the professionals responsible for distributing food could share the menu of the day, and the students could select exactly what they intended to eat. This allowed the professionals to calculate with precision the amount of food to prepare, in this way, reducing waste.",
+                "tecnologias": {
+                    "front-end": ["HTML", " CSS", " TypeScript", " React", " Figma"],
+                    "back-end": ["Java", "Spring Boot", "Firebase Auth"],
+                    "banco-de-dados": ["MySQL"],
+                    "servidor": []
+                },
+                "comentario-extra": "This project marked a turning point of my development trajectory, here I learned so many things while challenging myself with a programming language known for this complexity and verbosiy (Java), so at this point I really started dedicating myself to learning programming."
+            },
+            "button": "Open repository."
         }
     }
 }

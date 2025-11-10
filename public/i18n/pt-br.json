@@ -127,7 +127,7 @@
                 "introducao": "O \"Spin-Vault\" é o meu principal projeto pessoal, se trata de uma biblioteca de discos de vinis online, onde os usuários podem armazenar e organizar seus discos com facilidade.",
                 "objetivo": "Após uma pesquisa de mercado, foi observado que colecionadores possuem grandes dificuldades para organizar suas coleções a depender do tamanho delas, e o Spin-Vault foi criado para resolver esse problema, provendo espaço em nuvem e organização para as coleções.",
                 "tecnologias": {
-                    "front-end": ["HTML", " CSS", " JS", " React"],
+                    "front-end": ["HTML", " CSS", " JavaScript", " React"],
                     "back-end": ["Java", " Spring Boot", " Python", " RabbitMQ"],
                     "banco-de-dados": ["PostgreSQL"],
                     "servidor": ["Vercel", " Hostinger"]
@@ -153,7 +153,7 @@
                 "introducao": "O projeto \"Instalar\" foi um freelance que fiz para uma empresa de instalação elétrica e industrial.",
                 "objetivo": "O objetivo do mesmo foi de ajudar na divulgação da empresa, auxiliando e guiando possíveis novos clientes e ao mesmo tempo fornecendo uma visão geral do serviço que é oferecido.",
                 "tecnologias": {
-                    "front-end": ["HTML", " CSS", " JS", " ReactJS", " Figma"],
+                    "front-end": ["HTML", " CSS", " JavaScript", " React", " Figma"],
                     "back-end": [],
                     "banco-de-dados": [],
                     "servidor": ["Vercel"]
@@ -161,6 +161,32 @@
                 "comentario-extra": "Esse foi um projeto relativamente simples em comparação com os outros que já fiz, porém ele serviu como uma experiência do mercado de trabalho, já que foi um dos primeiros freelances que fiz de fato."
             },
             "button": "Abrir página"
+        },
+
+        "3": {
+            "title": {
+                "h1": "Students Cool",
+                "introducao": "Introdução",
+                "objetivo": "Objetivo",
+                "tecnologias": "Tecnologias",
+                "front": "Front-end",
+                "back": "Back-end",
+                "banco": "Banco de dados",
+                "server": "Servidor",
+                "comentario": "Comentário extra"
+            },
+            "text": {
+                "introducao": "O \"Students-cool\" foi o meu TCC no curso técnico de analise e desenvolvimento de sistemas no Senai de Santo André.",
+                "objetivo": "Esse projeto foi criado com o objetivo de diminuir o desperdício de alimentos em instituições de ensino, fizemos isso criando um cardápio interativo online (para pc e mobile), onde os responsáveis por distribuir alimentos poderiam informar o cardápio do dia, e os alunos poderiam selecionar exatamente o que iriam consumir, assim os profissionais poderiam calcular com precisão quantidade a ser produzida, diminuindo o desperdício de comida.",
+                "tecnologias": {
+                    "front-end": ["HTML", " CSS", " TypeScript", " React", " Figma"],
+                    "back-end": ["Java", "Spring Boot", "Firebase Auth"],
+                    "banco-de-dados": ["MySQL"],
+                    "servidor": []
+                },
+                "comentario-extra": "Esse projeto marcou uma virada de chave na minha trajetória como desenvolvedor, aqui eu aprendi diversas coisas me desafiando com uma linguagem conhecida principalmente pela complexidade e verbosidade (java), e foi a partir daqui que eu comecei a me dedicar e a estudar de verdade a área de programação."
+            },
+            "button": "Abrir repositório"
         }
     }
 }
