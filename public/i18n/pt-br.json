@@ -89,9 +89,9 @@
                 "p2": "Lista To-Do online pensado para ajudar na organização de tarefas usando tags de anotação."
             },
             "card6": {
-                "h3": "API - Biblioteca",
-                "p1": "01/05/2024 - 01/08/2024",
-                "p2": "API para uma biblioteca fictícia feita utilizando Java com Spring Boot, focando principalmente no desenvolvimento usando Clean Architecture."
+                "h3": "Loja do Flor",
+                "p1": "01/03/2025 - 01/06/2025",
+                "p2": "Um projeto acadêmico de uma loja simples feito usando apenas HTML, CSS e JS, focando na responsividade e no design do site."
             },
 
             "button": "Ver detalhes"

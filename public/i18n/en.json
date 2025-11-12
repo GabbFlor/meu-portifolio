@@ -89,9 +89,9 @@
                 "p2": "Online to-do list thinked for help with tasks organization using anotation tags."
             },
             "card6": {
-                "h3": "API - Library",
-                "p1": "05/01/2024 - 08/01/2024",
-                "p2": "An API for a fictional library feat using Java with Spring Boot, main focus with development using Clean Architecture."
+                "h3": "Flor's Store",
+                "p1": "01/03/2025 - 01/06/2025",
+                "p2": "An academic project for a simple online store, developed using only HTML, CSS e JS, focused in responsibility and website design."
             },
 
             "button": "View details"
