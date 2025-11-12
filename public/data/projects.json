@@ -65,5 +65,16 @@
       "assets/imgs-projetos/life-link/img-5.webp"
     ],
     "link": "https://github.com/GabbFlor/LifeLink-ReactNative"
+  },
+  {
+    "id": 5,
+    "img": [
+      "assets/imgs-projetos/floratask/img-1.webp",
+      "assets/imgs-projetos/floratask/img-2.webp",
+      "assets/imgs-projetos/floratask/img-3.webp",
+      "assets/imgs-projetos/floratask/img-4.webp",
+      "assets/imgs-projetos/floratask/img-5.webp"
+    ],
+    "link": "https://github.com/GabbFlor/FloraTask"
   }
 ]

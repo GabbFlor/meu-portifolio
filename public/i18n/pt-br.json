@@ -213,6 +213,32 @@
                 "comentario-extra": "Quando desenvolvi esse projeto eu ainda não sabia quase nada de programação back-end, então a alternativa que encontrei para resolver esse problema na época foi usar o firebase tanto para autenticação quanto para banco de dados, por mais que não fosse uma boa escolha para um desenvolvimento em produção, ainda sim foi um bom quebra-galho."
             },
             "button": "Abrir repositório"
+        },
+
+        "5": {
+            "title": {
+                "h1": "FloraTask",
+                "introducao": "Introdução",
+                "objetivo": "Objetivo",
+                "tecnologias": "Tecnologias",
+                "front": "Front-end",
+                "back": "Back-end",
+                "banco": "Banco de dados",
+                "server": "Servidor",
+                "comentario": "Comentário extra"
+            },
+            "text": {
+                "introducao": "\"FloraTask\" é uma lista de tarefas online criada para facilitar a organização das mesmas utilizando um sistema de tags.",
+                "objetivo": "Desenvolvi o FloraTask sozinho em 2024, e o real objetivo desse projeto foi treinar os conhecimentos que adquiri no meu curso de Java, e tentar implementar algumas funções a mais além do que eu aprendi, como sistema de autenticação por token e uma criação de base de dados mais elaborada.",
+                "tecnologias": {
+                    "front-end": ["HTML", " CSS", " JavaScript", " React", " Figma"],
+                    "back-end": ["Java", " Spring boot"],
+                    "banco-de-dados": ["MariaDB"],
+                    "servidor": []
+                },
+                "comentario-extra": "Acredito que o principal ponto positivo desse projeto foi a implementação de token com JWT, algo que eu aprendi sozinho assistindo vídeos e documentações online na época, nesse ponto eu também já estava mais familiarizado com a linguagem Java."
+            },
+            "button": "Abrir repositório"
         }
     }
 }

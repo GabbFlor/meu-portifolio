@@ -203,7 +203,7 @@
             },
             "text": {
                 "introducao": "The \"Life Link\" was one of semester-end projects in Technical Course of Analysis and Development Systems in SENAI (3º semester).",
-                "objetivo": "We created the Life Link with de goal of facilitating the communication between students, we used the initial ideia of Facebook, and apearence of Twitter (actual X) as inspiration.",
+                "objetivo": "We created the Life Link with the goal of facilitating the communication between students, we used the initial ideia of Facebook, and apearence of Twitter (actual X) as inspiration.",
                 "tecnologias": {
                     "front-end": ["HTML", " CSS", " JavaScript", " React", " React Native", " Figma"],
                     "back-end": ["Firebase Auth"],
@@ -211,6 +211,32 @@
                     "servidor": []
                 },
                 "comentario-extra": "When I developed this project, I didn't know about back-end programming yet, so the alternative I found to solve this problem was to using the Firebase for both authentication and the database, even if it wasn't a good choose for a production environment, was a good idea for an academic project."
+            },
+            "button": "Open repository."
+        },
+
+        "5": {
+            "title": {
+                "h1": "FloraTask",
+                "introducao": "Introduction",
+                "objetivo": "Objective",
+                "tecnologias": "Technologies",
+                "front": "Front-end",
+                "back": "Back-end",
+                "banco": "Database",
+                "server": "Server",
+                "comentario": "Extra comment"
+            },
+            "text": {
+                "introducao": "\"FloraTask\" is an online to-do list created for facilitate the tasks organization using a tag system.",
+                "objetivo": "I developed the FloraTask alone in 2024, and the main objective of this project was training the knowledge I acquired in my Java course, and trying implement some adtitional feactures what I learned, such as the token-based authentication and a more elaborated database.",
+                "tecnologias": {
+                    "front-end": ["HTML", " CSS", " JavaScript", " React", " Figma"],
+                    "back-end": ["Java", " Spring boot"],
+                    "banco-de-dados": ["MariaDB"],
+                    "servidor": []
+                },
+                "comentario-extra": "I believe what the main positive aspect of this project was the implementation of token-base authentication, something that I learned alone by wathing videos and reading online documentations, at this point I was already familiarized with the Java language."
             },
             "button": "Open repository."
         }
