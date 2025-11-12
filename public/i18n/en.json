@@ -187,6 +187,32 @@
                 "comentario-extra": "This project marked a turning point of my development trajectory, here I learned so many things while challenging myself with a programming language known for this complexity and verbosiy (Java), so at this point I really started dedicating myself to learning programming."
             },
             "button": "Open repository."
+        },
+
+        "4": {
+            "title": {
+                "h1": "Life Link",
+                "introducao": "Introduction",
+                "objetivo": "Objective",
+                "tecnologias": "Technologies",
+                "front": "Front-end",
+                "back": "Back-end",
+                "banco": "Database",
+                "server": "Server",
+                "comentario": "Extra comment"
+            },
+            "text": {
+                "introducao": "The \"Life Link\" was one of semester-end projects in Technical Course of Analysis and Development Systems in SENAI (3º semester).",
+                "objetivo": "We created the Life Link with de goal of facilitating the communication between students, we used the initial ideia of Facebook, and apearence of Twitter (actual X) as inspiration.",
+                "tecnologias": {
+                    "front-end": ["HTML", " CSS", " JavaScript", " React", " React Native", " Figma"],
+                    "back-end": ["Firebase Auth"],
+                    "banco-de-dados": ["Firebase Database"],
+                    "servidor": []
+                },
+                "comentario-extra": "When I developed this project, I didn't know about back-end programming yet, so the alternative I found to solve this problem was to using the Firebase for both authentication and the database, even if it wasn't a good choose for a production environment, was a good idea for an academic project."
+            },
+            "button": "Open repository."
         }
     }
 }

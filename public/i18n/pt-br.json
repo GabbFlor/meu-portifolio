@@ -187,6 +187,32 @@
                 "comentario-extra": "Esse projeto marcou uma virada de chave na minha trajetória como desenvolvedor, aqui eu aprendi diversas coisas me desafiando com uma linguagem conhecida principalmente pela complexidade e verbosidade (java), e foi a partir daqui que eu comecei a me dedicar e a estudar de verdade a área de programação."
             },
             "button": "Abrir repositório"
+        },
+
+        "4": {
+            "title": {
+                "h1": "Life Link",
+                "introducao": "Introdução",
+                "objetivo": "Objetivo",
+                "tecnologias": "Tecnologias",
+                "front": "Front-end",
+                "back": "Back-end",
+                "banco": "Banco de dados",
+                "server": "Servidor",
+                "comentario": "Comentário extra"
+            },
+            "text": {
+                "introducao": "O \"Life\" Link foi um dos meus projetos de conclusão de semestre no curso técnico de Análise e Desenvolvimento de Sistemas no SENAI (3º semestre).",
+                "objetivo": "Criamos o Life Link com o objetivo de facilitar a comunicação entre os alunos, usamos como inspiração a ideia inicial do Facebook, e a aparencia do Twitter (atual X).",
+                "tecnologias": {
+                    "front-end": ["HTML", " CSS", " JavaScript", " React", " React Native", " Figma"],
+                    "back-end": ["Firebase Auth"],
+                    "banco-de-dados": ["Firebase Database"],
+                    "servidor": []
+                },
+                "comentario-extra": "Quando desenvolvi esse projeto eu ainda não sabia quase nada de programação back-end, então a alternativa que encontrei para resolver esse problema na época foi usar o firebase tanto para autenticação quanto para banco de dados, por mais que não fosse uma boa escolha para um desenvolvimento em produção, ainda sim foi um bom quebra-galho."
+            },
+            "button": "Abrir repositório"
         }
     }
 }
