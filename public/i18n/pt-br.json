@@ -239,6 +239,32 @@
                 "comentario-extra": "Acredito que o principal ponto positivo desse projeto foi a implementação de token com JWT, algo que eu aprendi sozinho assistindo vídeos e documentações online na época, nesse ponto eu também já estava mais familiarizado com a linguagem Java."
             },
             "button": "Abrir repositório"
+        },
+
+        "6": {
+            "title": {
+                "h1": "Loja do Flor",
+                "introducao": "Introdução",
+                "objetivo": "Objetivo",
+                "tecnologias": "Tecnologias",
+                "front": "Front-end",
+                "back": "Back-end",
+                "banco": "Banco de dados",
+                "server": "Servidor",
+                "comentario": "Comentário extra"
+            },
+            "text": {
+                "introducao": "\"Loja do Flor\" é um site que eu desenvolvi no meu curso superior de Análise e Desenvolvimento de Sistemas.",
+                "objetivo": "O objetivo desse projeto foi simular uma espécie de e-commerce, onde teria uma landing page, uma página de produtos e uma tabela de encomendas, além de ser desenvolvido focando em um design clean e bonito.",
+                "tecnologias": {
+                    "front-end": ["HTML", " CSS", " JavaScript"],
+                    "back-end": [],
+                    "banco-de-dados": [],
+                    "servidor": []
+                },
+                "comentario-extra": "Esse projeto não possui nenhuma função técnica especial, mas eu achei que fui muito divertido desenvolve-lo apenas em HTML, CSS e JavaScript puro, sem o uso de frameworks."
+            },
+            "button": "Abrir repositório"
         }
     }
 }

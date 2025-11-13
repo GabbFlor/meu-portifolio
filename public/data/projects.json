@@ -76,5 +76,19 @@
       "assets/imgs-projetos/floratask/img-5.webp"
     ],
     "link": "https://github.com/GabbFlor/FloraTask"
+  },
+  {
+    "id": 6,
+    "img": [
+      "assets/imgs-projetos/loja-do-flor/img-1.webp",
+      "assets/imgs-projetos/loja-do-flor/img-2.webp",
+      "assets/imgs-projetos/loja-do-flor/img-3.webp",
+      "assets/imgs-projetos/loja-do-flor/img-4.webp",
+      "assets/imgs-projetos/loja-do-flor/img-5.webp",
+      "assets/imgs-projetos/loja-do-flor/img-6.webp",
+      "assets/imgs-projetos/loja-do-flor/img-7.webp",
+      "assets/imgs-projetos/loja-do-flor/img-8.webp"
+    ],
+    "link": "https://github.com/GabbFlor/Loja-do-flor"
   }
 ]

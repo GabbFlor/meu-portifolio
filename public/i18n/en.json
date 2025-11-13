@@ -239,6 +239,32 @@
                 "comentario-extra": "I believe what the main positive aspect of this project was the implementation of token-base authentication, something that I learned alone by wathing videos and reading online documentations, at this point I was already familiarized with the Java language."
             },
             "button": "Open repository."
+        },
+
+        "6": {
+            "title": {
+                "h1": "Flor's Store",
+                "introducao": "Introduction",
+                "objetivo": "Objective",
+                "tecnologias": "Technologies",
+                "front": "Front-end",
+                "back": "Back-end",
+                "banco": "Database",
+                "server": "Server",
+                "comentario": "Extra comment"
+            },
+            "text": {
+                "introducao": "\"Flor's Store\" is a website that I developed in my Associate Degree in Systems Analysis and Development.",
+                "objetivo": "The goal of this project was simulated an especime of e-commerce, that would have a Landing Page, a product's pages and a orders page, besides being developed focused in clean and beautiful design.",
+                "tecnologias": {
+                    "front-end": ["HTML", " CSS", " JavaScript"],
+                    "back-end": [],
+                    "banco-de-dados": [],
+                    "servidor": []
+                },
+                "comentario-extra": "This project don't have any special technical function, but I find very funny develop it only in HTML, CSS and JavaScript, without usage of frameworks."
+            },
+            "button": "Open repository."
         }
     }
 }
