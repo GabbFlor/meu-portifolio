@@ -172,7 +172,7 @@ main {
         }
     }
 
-    button {
+    a {
         background-color: var(--secondary-color);
         color: var(--primary-font-color);
         padding: 10px 0px;
@@ -183,6 +183,7 @@ main {
         border: 2px solid var(--primary-color);
         box-shadow: 0 0 7px 2px var(--primary-neon-color);
         transition: box-shadow 0.3s ease;
+        text-decoration: none;
 
         &:hover {
             cursor: pointer;
