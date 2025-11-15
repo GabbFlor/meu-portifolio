@@ -1,0 +1,20 @@
+main {
+    background-color: var(--background-color);
+    color: var(--primary-font-color);
+
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+    h1, h2 {
+        font-size: var(--font-size-h1);
+    }
+
+    a {
+        color: var(--accent-color);
+    }
+}

@@ -266,5 +266,14 @@
             },
             "button": "Open repository."
         }
+    },
+
+    "pag-error": {
+        "h1": "Error! Page not found!",
+        "h2": {
+            "part1": "Click",
+            "part2": "here",
+            "part3": "to go to the main page."
+        }
     }
 }
